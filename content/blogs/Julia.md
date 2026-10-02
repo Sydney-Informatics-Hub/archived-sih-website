@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/julia"
 date = "2019-05-08T00:00:00+10:00"
 title = "Using Julia to transpose genomics data"
 draft = false

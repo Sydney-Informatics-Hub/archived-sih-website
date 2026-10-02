@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydneyuni.service-now.com/sm?id=kb_article_view&sysparm_article=KB0010881"
 title = "University Code Repository: GitHub Enterprise"
 draft = false
 toc = true

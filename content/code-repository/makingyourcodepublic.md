@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 date = "2017-05-06T17:25:22+10:00"
 title = "Making your code public"
 draft = false

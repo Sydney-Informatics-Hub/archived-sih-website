@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/artemisclassic"
 date = "2018-09-25T00:00:00+10:00"
 title = "Getting your data from RDS Classic to Artemis"
 draft = false

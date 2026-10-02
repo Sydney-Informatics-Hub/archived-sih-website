@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 {{ if .Params.private }}<meta name="robots" content="noindex">{{ end }}
-{{ if .Params.redirectTo }}<link rel="canonical" href="{{.Params.redirectTo}}"><meta http-equiv="refresh" content="0; url={{.Params.redirectTo}}">{{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}public/img/favicons/favicon-16x16.png" sizes="16x16">
 
@@ -13,7 +12,7 @@
 
 <link rel="icon" type="image/vnd.microsoft.icon" href="{{ .Site.BaseURL }}favicon.ico">
 
-<title>{{ if .Params.redirectTo }}Redirecting{{ else }}{{ .Title }}{{ end }} – Sydney Informatics Hub</title>
+<title>{{ .Title }} – Sydney Informatics Hub</title>
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 {{ if .Site.Params.opengraph }}{{ template "_internal/opengraph.html" . }}{{ end }}
@@ -31,6 +30,7 @@
 
 </head>
 <body class="body {{ if (.Site.Params.leftsidebar) or (.Params.leftsidebar) }}body-left-sidebar{{ else }}body-right-sidebar{{ end }} mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+{{ partial "archive-banner.html" . }}
 	<div class="container container-outer">
 		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 			{{ partial "menu.html" . }}

@@ -1,5 +1,4 @@
 +++ 
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 title = "Github demo" 
 draft = false 
 +++

@@ -1,6 +1,6 @@
 +++
 date = "2017-05-05T10:00:00+10:00"
-title = "Sydney Informatics Hub: Redirecting"
+title = "Sydney Informatics Hub"
 draft = false
 type = "sidebar"
 stream = "news"

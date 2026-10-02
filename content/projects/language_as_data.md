@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 title = "Projects : Language as data"
 draft = false
 type = "nosidebar"

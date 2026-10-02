@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/research/facilities/sydney-informatics-hub/workshops-and-training.html"
 date = "2017-06-05T17:25:22+10:00"
 title = "Training"
 draft = false

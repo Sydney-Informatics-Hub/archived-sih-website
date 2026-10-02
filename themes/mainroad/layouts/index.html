@@ -19,7 +19,7 @@
 				<img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}">
 			</figure>
 			{{- end }}
-			{{ if .Params.redirectTo }}<p>Redirecting to <a href="{{.Params.redirectTo}}">{{.Params.redirectTo}}</a></p>{{ else }}{{ .Content }}{{ end }}
+			{{ .Content }}
 		</div>
 		{{ partial "post_tags.html" . }}
 	</article>

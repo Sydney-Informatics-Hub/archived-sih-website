@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 title = "Projects : Paper"
 draft = false
 type = "nosidebar"

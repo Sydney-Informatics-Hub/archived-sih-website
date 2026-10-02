@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 date = "2019-01-30T00:00:00+10:00"
 draft = false
 +++

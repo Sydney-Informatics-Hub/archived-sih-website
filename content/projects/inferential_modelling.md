@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 title = "Projects : Inferential modelling"
 draft = false
 type = "nosidebar"

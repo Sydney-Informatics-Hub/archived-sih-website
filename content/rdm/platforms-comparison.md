@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydneyuni.service-now.com/sm?id=kb_article_view&sysparm_article=KB0013832"
 date = "2018-01-08T17:25:22+10:00"
 title = "Supported Research Data Platforms: Features and Comparison"
 draft = false

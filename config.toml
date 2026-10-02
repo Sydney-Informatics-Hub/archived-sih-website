@@ -29,7 +29,7 @@ disableKinds = ["RSS"]
 
 [Params.widgets]
     search = true # Enable "Search" widget
-    recent_articles = false
+    recent_articles = true # Enable "Recent articles" widget
     categories = true # Enable "Categories" widget
     tags = false # Enable "Tags" widget
     tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)

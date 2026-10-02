@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 title = "What to expect from SIH assistance"
 draft = false
 +++

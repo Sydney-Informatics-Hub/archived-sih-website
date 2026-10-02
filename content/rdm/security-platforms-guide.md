@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydneyuni.service-now.com/sm?id=kb_article_view&sysparm_article=KB0013836"
 title = "Research Data Platforms: Security Guide"
 draft = false
 +++

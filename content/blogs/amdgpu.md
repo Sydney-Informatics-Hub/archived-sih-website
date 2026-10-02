@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/amdgpu"
 date = "2018-05-22T00:00:00+10:00"
 title = "Deep Learning without CUDA"
 draft = false

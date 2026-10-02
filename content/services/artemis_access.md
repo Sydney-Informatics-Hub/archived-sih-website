@@ -1,5 +1,4 @@
 
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 +++
 date = "2017-11-03T15:25:22+10:00"
 title = "Access to Artemis"

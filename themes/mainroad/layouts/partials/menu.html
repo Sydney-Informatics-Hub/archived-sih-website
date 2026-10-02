@@ -7,11 +7,11 @@
 		</div>
 		<div class="button"></div>
 		<div class="page-title">
-			<h1 class="logo__title"><a class="logo__link" href="https://sydney.edu.au/sydney-informatics-hub" title="{{ .Site.Title }}" rel="home">{{ .Site.Title }}</a></h1>
+			<h1 class="logo__title"><a class="logo__link" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}" rel="home">{{ .Site.Title }}</a></h1>
 		</div>
 	</div>
 	<ul>
-		{{- if false }}
+		{{- if .Site.Menus.main }}
 			{{- $currentNode := . }}
 			{{- range sort .Site.Menus.main }}
 					<li class='menu-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}'><a class='menu-link' href="{{ .URL }}">{{ .Name }}</a>

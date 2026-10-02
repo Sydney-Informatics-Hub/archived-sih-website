@@ -1,5 +1,4 @@
 +++ 
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 title = "REDCap" 
 draft = false 
 +++

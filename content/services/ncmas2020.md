@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 date = "2019-07-17T10:56:22+10:00"
 title = "National Computational Merit Allocation Scheme 2020"
 draft = false

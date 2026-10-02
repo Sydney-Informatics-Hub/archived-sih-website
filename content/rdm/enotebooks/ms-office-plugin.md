@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydneyuni.service-now.com/sm?id=kb_article_view&sysparm_article=KB0013721"
 date = "2017-06-05T17:25:22+10:00"
 title = "eNotebook MS Office Plugin"
 draft = false

@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 date = "2017-06-05T17:25:22+10:00"
 title = "Services"
 draft = false
@@ -59,5 +58,5 @@ Researchers at the University of Sydney may apply for funding from a pool of $50
 
 The continued acknowledgment of the use of SIH facilities ensures the sustainability of our services. If you have used any service provided by the Sydney Informatics Hub, be sure to acknowledge SIH in your publication and submit your publication to SIH to win up to $1000.
 
-Learn more about the SIH publication incentive [here](/news/hpcpublicationincentive/).
+Learn more about the SIH publication incentive [here](/news/sihincentive/).
 

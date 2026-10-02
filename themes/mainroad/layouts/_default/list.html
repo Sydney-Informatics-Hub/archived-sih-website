@@ -7,7 +7,7 @@
 		</header>
 		{{- end }}
 		<div class="post__content">
-		{{ if .Params.redirectTo }}<p>Redirecting to <a href="{{.Params.redirectTo}}">{{.Params.redirectTo}}</a></p>{{ else }}{{ .Content }}{{ end }}
+		{{ .Content }}
 	</div>
 	</div>
 

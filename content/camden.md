@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 
 date = "2019-10-01T00:00:00+10:00"
 title = "Camden Research Computing Day"
@@ -63,5 +62,4 @@ Get in touch with us at [sih.info@sydney.edu.au](mailto:sih.info@sydney.edu.au) 
 
 <!--
 Redirecting to [_**Registration**_](https://www.eventbrite.com.au/e/sih-at-camden-campus-tickets-48545653356) site now..
-<meta http-equiv="Refresh" content="2; url=https://www.eventbrite.com.au/e/sih-at-camden-campus-tickets-48545653356">
 -->

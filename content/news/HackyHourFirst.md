@@ -2,7 +2,7 @@
 date = "2018-02-15T13:25:22+10:00"
 title = "First Sydney University Hacky Hour"
 draft = false
-thumbnail = "/news/HackyHour_BMC.jpg"
+thumbnail = "/news/HackyHour_BMC Large.jpeg"
 summary = "Sydney University has hosted its first Hacky Hour event."
 +++
 

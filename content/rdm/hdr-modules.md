@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydneyuni.service-now.com/sm?id=kb_article_view&sysparm_article=KB0013873"
 title = "Research Data Management for Higher Degree by Research Students"
 draft = false
 +++

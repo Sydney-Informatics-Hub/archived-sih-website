@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 
 date = "2019-01-28T00:00:00+10:00"
 title = "SIH Data Bonanza at Westmead"

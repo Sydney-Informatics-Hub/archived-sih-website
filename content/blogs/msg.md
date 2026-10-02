@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/msg"
 date = "2018-01-12T17:25:22+10:00"
 title = "MeanShift Clustering: a GPU case-study"
 draft = false

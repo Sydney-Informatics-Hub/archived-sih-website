@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/sydney-informatics-hub"
 date = "2017-04-07T17:25:22+10:00"
 title = "People"
 draft = false
@@ -197,7 +196,7 @@ Dr. Rosemarie Sadsad is the Informatics Services Lead at the Sydney Informatics 
 Email: [rosemarie.sadsad@sydney.edu.au](mailto:rosemarie.sadsad@sydney.edu.au)
 
 
-{{< profile "file"="TracyChew.jpg" "alt"="Tracy Chew" "type"="right" >}}
+{{< profile "file"="TracyChew.jpeg" "alt"="Tracy Chew" "type"="right" >}}
 ### <div align="right">Dr. Tracy Chew
 #### <div align="right">Senior Research Bioinformatics Technical Officer
 

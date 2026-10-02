@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/tf_on_linux"
 date = "2019-01-15T00:00:00+10:00"
 title = "Tensorflow on Ubuntu 18.04"
 draft = false

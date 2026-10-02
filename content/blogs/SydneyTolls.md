@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/sydneytolls"
 date = "2019-04-23T00:00:00+10:00"
 title = "Exploring Sydney Toll Road Data"
 draft = false

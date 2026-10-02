@@ -1,5 +1,4 @@
 +++
-redirectTo = "/news/apollo50"
 date = "2019-07-31T00:00:00+10:00"
 title = "Science communication 50 years after Apollo"
 draft = false

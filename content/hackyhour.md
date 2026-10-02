@@ -1,5 +1,4 @@
 +++
-redirectTo = "https://sydney.edu.au/research/facilities/sydney-informatics-hub/workshops-and-training/hacky-hour.html"
 
 date = "2017-12-20T00:00:00+10:00"
 title = ""
@@ -121,7 +120,7 @@ Digital research tools &middot; eNotebooks &middot; Data capture and surveys
 
 Phylogenetics &middot; long/short read DNA sequence analysis &middot; Metagenomics &middot; Pipelines &middot; Modelling & Simulation &middot; Bioinformatics & Genomics &middot; Infectious Diseases &middot; Health Systems
 
-{{< miniprofile "file"="/people/TracyChew.jpg" "alt"="Tracy Chew" "type"="left">}}
+{{< miniprofile "file"="/people/TracyChew.jpeg" "alt"="Tracy Chew" "type"="left">}}
 **Tracy Chew -- Bioinformatics**
 
 DNA/RNA sequence analysis &middot; Single Cell RNA-seq &middot; Association analysis
