@@ -1,0 +1,32 @@
+WARN 2017/04/28 18:25:00 Translation func for language en not found, use default.
+WARN 2017/04/28 18:25:00 i18n not initialized, check that you have language file (in i18n) that matches the site language or the default language.
+LOG:   2017/04/28 18:25:00 Started building sites ...
+WARN 2017/04/28 18:25:00 [en] Unable to locate layout for 404 page: [404.html theme/404.html]
+WARN 2017/04/28 18:25:00 404.html is rendered empty
+LOG:   2017/04/28 18:25:00 Built site for language en:
+LOG:   2017/04/28 18:25:00 0 draft content
+LOG:   2017/04/28 18:25:00 0 future content
+LOG:   2017/04/28 18:25:00 0 expired content
+LOG:   2017/04/28 18:25:00 8 regular pages created
+LOG:   2017/04/28 18:25:00 1 other pages created
+LOG:   2017/04/28 18:25:00 0 non-page files copied
+LOG:   2017/04/28 18:25:00 0 paginator pages created
+LOG:   2017/04/28 18:25:00 0 tags created
+LOG:   2017/04/28 18:25:00 0 categories created
+LOG:   2017/04/28 18:25:00 total in 6 ms
+WARN 2017/04/28 18:40:39 Translation func for language en not found, use default.
+WARN 2017/04/28 18:40:39 i18n not initialized, check that you have language file (in i18n) that matches the site language or the default language.
+LOG:   2017/04/28 18:40:39 Started building sites ...
+WARN 2017/04/28 18:40:39 [en] Unable to locate layout for 404 page: [404.html theme/404.html]
+WARN 2017/04/28 18:40:39 404.html is rendered empty
+LOG:   2017/04/28 18:40:39 Built site for language en:
+LOG:   2017/04/28 18:40:39 0 draft content
+LOG:   2017/04/28 18:40:39 0 future content
+LOG:   2017/04/28 18:40:39 0 expired content
+LOG:   2017/04/28 18:40:39 8 regular pages created
+LOG:   2017/04/28 18:40:39 1 other pages created
+LOG:   2017/04/28 18:40:39 0 non-page files copied
+LOG:   2017/04/28 18:40:39 0 paginator pages created
+LOG:   2017/04/28 18:40:39 0 tags created
+LOG:   2017/04/28 18:40:39 0 categories created
+LOG:   2017/04/28 18:40:39 total in 5 ms

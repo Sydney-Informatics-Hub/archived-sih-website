@@ -1,0 +1,9 @@
+Login =https://au-mynotebook.labarchives.com
+
+API =https://auapi.labarchives.com
+
+Browse =https://au-mynotebook.labarchives.com
+
+ErrorConnecting =Prism cannot connect to the AU LabArchives instance
+
+TryAccountBlurb =The University has a site license for LabArchives, so the free trial is not available

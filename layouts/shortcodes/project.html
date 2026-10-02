@@ -1,0 +1,143 @@
+{{ $adminMode:= int (.Get "adminMode") }}
+{{ $tagFilter := default "" (.Get "tagFilter") }}
+
+{{ range sort (index $.Site.Data "closed-projects") "fields.End date" "desc" }}
+{{ $classifications := union (index .fields "Classification Deliverables") (index .fields "Classification Methodologies") }}
+
+
+{{ if or (eq $tagFilter "") (in $classifications $tagFilter) }}
+
+{{ $pipeKey := lower .key }}
+{{ $body := .fields.Body }}
+{{ $draft := not (and (isset .fields "Public") (in "Yes: SIH and Client approve. Legacy: SIH approves, client may have approved" .fields.Public)) }}
+
+{{ if or $adminMode (not $draft) }}
+<section class="project-section {{ if $draft }}draft{{ end }}" id="#{{.key}}">
+
+
+	{{ if $adminMode }} <a class="project-key" href="https://ctdshub.atlassian.net/secure/EditIssue!default.jspa?id={{.id}}">{{.key}} ✏️</a> {{ end }}
+	<h4 class="project-title">
+		{{ .fields.Title }}
+	</h4>
+
+    {{ if $draft }}<p>⚠️ Reason in draft: {{ if .fields.Public }}{{ .fields.Public }}.{{ end }} {{ index .fields "Reason not public" }} ⚠️</p> {{ end }}
+
+
+  <div class="project-summary">
+    <!-- Figure -->
+    {{ if and (isset .fields "Has Thumbnail Image") (eq (index .fields "Has Thumbnail Image") "Yes") }}
+    <figure class="loop__thumbnail">
+      <img src="/images/pipe/{{ $pipeKey }}-thumbnail.png" alt="{{ .fields.Title }}">
+    </figure>
+    {{ end }}
+
+    <ul class="project-attrs">
+      <!-- Client -->
+      {{ if isset .fields "Clients" }}
+      <li>
+        <label>Clients:</label>
+        {{ delimit .fields.Clients "; " | markdownify }}
+      </li>
+      {{ end }}
+
+      <!-- Faculty -->
+      {{ if isset .fields "Faculty" }}{{ if (ne (index .fields.Faculty 0) "Not applicable") }}
+      <li>
+        <label>Faculty:</label>
+        {{ delimit .fields.Faculty "; " }}
+      </li>
+      {{ end }}{{ end }}
+
+      <!-- Centre -->
+      {{ if isset .fields "Centre" }}{{ if (ne (index .fields.Centre 0) "Not applicable") }}
+      <li>
+        <label>Centre:</label>
+        {{ delimit .fields.Centre "; " }}
+      </li>
+      {{ end }}{{ end }}
+
+      <!-- SIH Team -->
+      {{ if isset .fields "SIH Team" }}
+      {{ $teamName := index .fields "SIH Team"  }}
+      <li>
+        <label>SIH Team:</label>
+        {{ with (eq $teamName "Data Science" ) }} <a href="/services/data-science">{{ $teamName }}</a> {{ end }}
+        {{ with (eq $teamName "Research Data Management" ) }} <a href="/services/rdm">{{ $teamName }}</a>  {{ end }}
+        {{ with (eq $teamName "Research Computing" ) }} <a href="/services/artemis">{{ $teamName }}</a> {{ end }}
+        {{ with (eq $teamName "Statistical Expertise" ) }} <a href="/services/statistics">{{ $teamName }}</a> {{ end }}
+        {{ if (isset .fields "SIH Staff") }}
+        ({{ delimit (index .fields "SIH Staff") ", " " and " }})
+        {{ end }}
+      </li>
+      {{ end }}
+
+      <!-- Publication -->
+      {{ if isset .fields "Software published" }}
+      {{ $softwareUrl :=  index .fields "Software published"}}
+      <li>
+        <label>Software Published:</label>
+        <a href="{{ $softwareUrl }}" >{{ $softwareUrl }}</a>
+      </li>
+      {{ end }}
+
+      <!-- Year Completed -->
+      {{ if (isset .fields "End date") }}
+      <li>
+        <label>Year Completed:</label>
+        {{ ((index .fields "End date") | time).Format "2006" }}
+      </li>
+      {{ end }}
+
+      <!-- Deliverables -->
+      {{ if isset .fields "Classification Deliverables" }}
+      <li>
+        <label>Deliverables:</label>
+        {{ range (index .fields "Classification Deliverables") }}
+          <a href="/projects/{{ replace (lower .) " " "_" }}"><span class="label label-info">{{.}}</span></a>
+        {{ end }}
+      </li>
+      {{ end }}
+
+      <!-- Methodologies -->
+      {{ if isset .fields "Classification Methodologies" }}
+      <li>
+        <label>Methodologies:</label>
+        {{ range (index .fields "Classification Methodologies") }}
+          <a href="/projects/{{ replace (lower .) " " "_" }}"><span class="label label-prim">{{.}}</span></a>
+        {{ end }}
+      </li>
+      {{ end }}
+
+    </ul>
+
+  </div>
+
+  <!-- Description -->
+  <!-- We use the checkbox hack here to implement the collapsible component -->
+  <div class="collasible-wrapper">
+    <!-- hidden checkbox that keeps the show/hide state -->
+    <input id="collapsible-{{$pipeKey}}" class="toggle" type="checkbox">
+
+    <!-- full project description -->
+    <div class="project-description">
+      <div class="content-inner">
+          <p> {{ $body | markdownify }} </p>
+          {{ if and (isset .fields "Has Large Image") (eq (index .fields "Has Large Image") "Yes") }}
+          <img src="/images/pipe/{{ $pipeKey }}-large.png" alt="{{ .fields.Title }}">
+          {{ end }}
+      </div>
+    </div>
+
+    <!-- truncated project description & expansion toggle -->
+    <div class="toggle-content">
+      {{ substr $body 0 250 }}...
+    </div>
+    <label for="collapsible-{{$pipeKey}}" class="toggle-label">
+      <span class="toggle-caveat"></span>
+    </label>
+  </div>
+
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

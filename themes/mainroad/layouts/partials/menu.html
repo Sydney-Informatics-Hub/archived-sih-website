@@ -1,0 +1,50 @@
+<nav id="cssmenu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class='logo-container'>
+		<div class="logo">
+			<a class="logo__link" href="{{ .Site.Params.logoLink }}" title="University of Sydney" rel="home2">
+				<img src="{{ .Site.BaseURL }}{{ .Site.Params.logoUrl }}" width=150 alt="University of Sydney logo">
+			</a>
+		</div>
+		<div class="button"></div>
+		<div class="page-title">
+			<h1 class="logo__title"><a class="logo__link" href="https://sydney.edu.au/sydney-informatics-hub" title="{{ .Site.Title }}" rel="home">{{ .Site.Title }}</a></h1>
+		</div>
+	</div>
+	<ul>
+		{{- if false }}
+			{{- $currentNode := . }}
+			{{- range sort .Site.Menus.main }}
+					<li class='menu-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}'><a class='menu-link' href="{{ .URL }}">{{ .Name }}</a>
+					{{ if .HasChildren }}
+						<ul>
+							{{ range .Children }}
+							<li class='submenu-item'><a class='submenu-link' href="{{ .URL }}">{{ .Name }}</a>{{ if .HasChildren }}
+								<ul>
+									{{ range .Children }}
+									<li class='submenu-item'><a class='submenu-link' href="{{ .URL }}">{{ .Name }}</a></li>
+									{{ end }}
+								</ul>
+							{{ end }}</li>
+							{{ end }}
+						</ul>
+					{{ end }}
+					</li>
+			{{- end }}
+		{{- end }}
+	</ul>
+</nav>
+
+<!--
+
+<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		{{- if .Site.Menus.main }}
+			{{- $currentNode := . }}
+			{{- range sort .Site.Menus.main }}
+					<li class="menu__item {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}menu__item--active{{end}}"><a class="menu__link" href="{{ .URL }}">{{ .Name }}</a></li>
+			{{- end }}
+		{{- end }}
+	</ul>
+</nav>
+
+-->

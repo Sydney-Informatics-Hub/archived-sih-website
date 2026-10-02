@@ -1,0 +1,23 @@
+<div>
+  <ul class="news_list">
+    {{- range first (index .Params 1) (where .Site.Pages "Section" (index .Params 0) ) }}
+    {{- if .IsPage}}
+    <div class="summary">
+      <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      {{- if .Params.thumbnail }}
+      <figure class="loop__thumbnail">
+        <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}">
+      </figure>
+      {{- end }}
+        {{ .Summary }}
+        {{ if .Truncated }}
+          <span class="read-more-link">
+            <a href="{{ .RelPermalink }}">  Read More…</a>
+          </span>
+        {{ end }}
+    </div>
+    <br style="clear:both" />
+    {{- end }}
+    {{- end }}
+  </ul>
+</div>

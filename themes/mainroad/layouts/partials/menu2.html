@@ -1,0 +1,41 @@
+<nav id="cssmenu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div id="head-mobile"></div>
+	<div class="button"></div>
+	<ul>
+		{{- if .Site.Menus.secondary }}
+			{{- $currentNode := . }}
+			{{- range sort .Site.Menus.secondary }}
+					<li class='menu-item{{if or ($currentNode.IsMenuCurrent "secondary" .) ($currentNode.HasMenuCurrent "secondary" .) }} active{{end}}'><a class='menu-link' href="{{ .URL }}">{{ .Name }}</a>
+					{{ if .HasChildren }}
+						<ul>
+							{{ range .Children }}
+							<li class='submenu-item'><a class='submenu-link' href="{{ .URL }}">{{ .Name }}</a>{{ if .HasChildren }}
+								<ul>
+									{{ range .Children }}
+									<li class='submenu-item'><a class='submenu-link' href="{{ .URL }}">{{ .Name }}</a></li>
+									{{ end }}
+								</ul>
+							{{ end }}</li>
+							{{ end }}
+						</ul>
+					{{ end }}
+					</li>
+			{{- end }}
+		{{- end }}
+	</ul>
+</nav>
+
+<!--
+
+<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		{{- if .Site.Menus.secondary }}
+			{{- $currentNode := . }}
+			{{- range sort .Site.Menus.secondary }}
+					<li class="menu__item {{if or ($currentNode.IsMenuCurrent "secondary" .) ($currentNode.HasMenuCurrent "secondary" .) }}menu__item--active{{end}}"><a class="menu__link" href="{{ .URL }}">{{ .Name }}</a></li>
+			{{- end }}
+		{{- end }}
+	</ul>
+</nav>
+
+-->

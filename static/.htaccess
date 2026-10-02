@@ -1,0 +1,7 @@
+RedirectMatch 301 "(/training)" "https://sydney.edu.au/research/facilities/sydney-informatics-hub/workshops-and-training/training-calendar.html"
+RedirectMatch 301 "(/people)" "https://sydney.edu.au/research/facilities/sydney-informatics-hub/our-staff.html"
+RedirectMatch 301 "(/projects)" "https://sydney.edu.au/research/facilities/sydney-informatics-hub/project-support.html"
+RedirectMatch 301 "(/rdm)" "https://sydney.edu.au/research/facilities/sydney-informatics-hub/digital-research-infrastructure.html#rdm"
+RedirectMatch 301 "(/help)" "https://sydney.edu.au/research/facilities/sydney-informatics-hub/project-support/request.html"
+RedirectMatch 301 "(/hackyhour)" "https://sydney.edu.au/research/facilities/sydney-informatics-hub/workshops-and-training/hacky-hour.html"
+RedirectMatch 301 "^/(?!static)(?!news)(?!blogs)(?!js/)(?!img/)(?!css/)" "http://sydney.edu.au/sydney-informatics-hub"

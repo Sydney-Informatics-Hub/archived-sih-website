@@ -1,0 +1,95 @@
+{{- if .Site.Params.widgets.recent_articles }}
+
+<!-- {{- if eq .Type "news" }}
+	{{ .Scratch.Set "Nn" 10 }}
+{{- else }}
+	{{ .Scratch.Set "Nn" 1 }}
+{{- end }} -->
+
+{{ .Scratch.Set "Nn" 10 }}
+
+{{- if eq ( $.Param "stream" ) "news"}}
+<div class="widget-recent widget">
+<h3 class="widget__title"><a href="/news/">Latest News</a></h3>
+	<div class="widget__content">
+		<ul class="widget__list">
+			{{- range first  ($.Scratch.Get "Nn") (where .Site.Pages "Section" "news") }}
+			{{- if .IsPage}}
+			<li class="widget__item">
+				<h5><a class="widget__link" href="{{ .RelPermalink }}" style="font-size:100%">{{ .Title }}</a></h5>
+				{{- if .Params.thumbnail }}
+				<img class="image_thumb img-oval" src="{{ .Params.thumbnail | absURL }}" width =80px, height =50px />
+				<!-- <figure class="loop__thumbnail">
+					<img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}" style="width:80px">
+				</figure> -->
+				{{- end }}
+				<p><a href="{{ .RelPermalink }}">
+					{{slicestr .Summary 0 120 | safeHTML}}...
+				</a></p>
+
+			{{- end }}
+      </li>
+			{{- end }}
+		</ul>
+	</div>
+</div>
+{{- end }}
+
+
+{{- if eq ( $.Param "stream" ) "blogs"}}
+<div class="widget-recent widget">
+	<h3 class="widget__title"><a href="/blogs/">Latest Blog Posts</a></h3>
+	<div class="widget__content">
+		<ul class="widget__list">
+			{{- range first 10 (where .Site.Pages "Section" "blogs") }}
+			{{- if .IsPage}}
+			<li class="widget__item">
+				<h5><a class="widget__link" href="{{ .RelPermalink }}" style="font-size:100%">{{ .Title }}</a></h5>
+				{{- if .Params.thumbnail }}
+				<img class="image_thumb img-oval" src="{{ .Params.thumbnail | absURL }}" width =80px, height =50px />
+				<!-- <figure class="loop__thumbnail">
+					<img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}" style="width:80px">
+				</figure> -->
+				{{- end }}
+				<p><a href="{{ .RelPermalink }}">
+			{{slicestr .Summary 0 120 | safeHTML}}...
+				</a></p>
+
+			{{- end }}
+      </li>
+			{{- end }}
+		</ul>
+	</div>
+</div>
+{{- end }}
+
+
+{{- if eq ( $.Param "stream" ) "all"}}
+<div class="widget-recent widget">
+	<h3 class="widget__title"><a href="/blogs/">Latest News & Blog Posts</a></h3>
+	<div class="widget__content">
+		<ul class="widget__list">
+			{{- range first 10 (where .Site.Pages "Section" "in" (slice "news" "blogs")) }}
+			{{- if .IsPage}}
+			<li class="widget__item">
+				<h5><a class="widget__link" href="{{ .RelPermalink }}" style="font-size:100%">{{ .Title }}</a></h5>
+				{{- if .Params.thumbnail }}
+				<!-- <div class="sidethumb"> -->
+					<img class="image_thumb img-oval" src="{{ .Params.thumbnail | absURL }}" width =80px, height =50px />
+				<!-- </div> -->
+				<!-- <figure class="loop__thumbnail">
+					<img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}" style="width:80px">
+				</figure> -->
+				{{- end }}
+				<p><a href="{{ .RelPermalink }}">
+			{{slicestr .Summary 0 80 | safeHTML}}...
+				</a></p>
+
+			{{- end }}
+      </li>
+			{{- end }}
+		</ul>
+	</div>
+</div>
+{{- end }}
+{{- end }}

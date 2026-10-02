@@ -1,0 +1,37 @@
+{{ $numOfParams := len .Params }}
+{{ if and (ge $numOfParams 2) (le $numOfParams 4) }}
+    <!-- Check if the Parameter is positional or named
+         which can handle both -->
+    {{ if .IsNamedParams }}
+        {{ $.Scratch.Set "file" (.Get "file") }}
+        {{ $.Scratch.Set "alt"  (.Get "alt") }}
+        {{ $.Scratch.Set "type" (.Get "type") }}
+    {{ else }}
+        {{ $.Scratch.Set "file" (.Get 0) }}
+        {{ if ge $numOfParams 2 }}
+            {{ $.Scratch.Set "alt" (.Get 1) }}
+        {{ else }}
+            {{ $.Scratch.Set "alt" "" }}
+        {{ end }}
+        {{ if ge $numOfParams 3 }}
+            {{ $.Scratch.Set "type"  (.Get 2) }}
+        {{ else }}
+            {{ $.Scratch.Set "type" "left" }}
+        {{ end }}
+    {{ end }}
+
+    {{ $file := $.Scratch.Get "file" }}
+    {{ $type := $.Scratch.Get "type" }}
+    {{ $alt  := $.Scratch.Get "alt" }}
+
+    {{ if eq $type "left" }}
+            <br clear="all">
+            <img class="image_left img-circle" src="{{ $file }}" alt="{{ $alt }}" width =150px, height =150px/>
+    {{ else if eq $type "right" }}
+            <br clear="all">
+            <img class="image_right img-circle" src="{{ $file }}" alt="{{ $alt }}" width =150px, height =150px/>
+    {{ else }}
+            <br clear="all">
+            <img src="{{ $file }} img-circle" alt="{{ $alt }}" />
+    {{ end }}
+{{ end }}

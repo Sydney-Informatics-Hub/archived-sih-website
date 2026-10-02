@@ -1,0 +1,28 @@
+{{- if .Params.blog }}
+
+{{ $.Scratch.Set "file" ( $.Param "authoravatar" ) }}
+{{ $.Scratch.Set "alt"  ( $.Param "authorname" ) }}
+{{ $.Scratch.Set "type" "right" }}
+
+{{ $file := $.Scratch.Get "file" }}
+{{ $type := $.Scratch.Get "type" }}
+{{ $alt  := $.Scratch.Get "alt" }}
+
+    <div class="widget-blog_author widget">
+
+    {{ if eq $type "left" }}
+            <br clear="all">
+            <img class="image_left img-circle" src="{{ $file }}" alt="{{ $alt }}" width =60px, height =60px/>
+    {{ else if eq $type "right" }}
+            <br clear="all">
+            <img class="image_right img-circle" src="{{ $file }}" alt="{{ $alt }}" width =60px, height =60px/>
+    {{ else }}
+            <br clear="all">
+            <img src="{{ $file }} img-circle" alt="{{ $alt }}" />
+    {{ end }}
+    <a href="/people/"><strong> {{ $alt }}  </strong></a><br>
+
+    <small> {{ (.Param "authorbio")}} </small>
+
+</div>
+{{- end }}

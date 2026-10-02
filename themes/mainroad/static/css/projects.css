@@ -1,0 +1,129 @@
+/* Project page styling */
+.project-section {
+    width: 95%;
+    padding: 15px;
+    box-shadow: -1px 2px 6px 0px rgba(77,73,77,0.35);
+    border-radius: 3px;
+}
+
+.project-section.draft {
+    box-shadow: -1px 2px 6px 0px rgba(77,73,77,0.35);
+}
+
+.project-section:not(:first-child) {
+    margin-top: 40px;
+}
+
+.project-title {
+    font-weight: 700;
+    color: #e64946;
+}
+
+.project-key {
+    font-weight: 700;
+    color: #e64946;
+    float: right;
+    text-align: right;
+    width: 8em;
+}
+
+.project-section.draft .project-title::before {
+	content: "[DRAFT] "
+}
+
+.project-summary {
+    display: flex;
+}
+
+.project-summary figure {
+    flex-grow: 1;
+}
+
+.project-summary ul {
+    flex-grow: 8;
+    list-style: circle;
+}
+
+.project-attrs li label {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.project-attrs .label {
+    display: inline;
+    padding: .1em .6em .2em;
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.project-attrs .label-prim {
+    background: #337ab7;
+}
+
+.project-attrs .label-info {
+    background: #5bc0de;
+}
+
+
+/* Implement the collasible using the checkbox hack */
+/* Hide the dummy checkbox */
+.collasible-wrapper input[type='checkbox'] {
+    display: none;
+}
+
+/* Style the toggle */
+.toggle-label {
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    margin-top: 10px;
+}
+
+.toggle-label:hover {
+  color: #e64946;
+}
+
+
+/* Style the toggle triangle */
+.toggle-caveat {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: #A0A0A0;
+    padding: 3px 16px;
+}
+.toggle-caveat:before {
+    content: 'Show More';
+}
+
+.toggle:checked ~ .toggle-label .toggle-caveat:before {
+    content: 'Show Less';
+    font-size: 12px;
+}
+
+/* Show/hide using the checkbox attribute  */
+.project-description {
+    /* full description is hidden by default */
+    max-height: 0px;
+    overflow: hidden;
+    /* add some animation while the full text is being rolled-out */
+    transition: max-height .6s ease-in-out;
+}
+
+.toggle:checked ~ .project-description {
+    /* full description is shown when dummy is checked */
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+.toggle:checked ~ .toggle-content {
+    /* the short summart is hidden when dummy is checked */
+    display: none;
+}

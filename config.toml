@@ -1,0 +1,270 @@
+BaseURL = "https://sydney-informatics-hub.github.io/archived-sih-website/"
+Title = "Sydney Informatics Hub"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "UA-103247639-1" # Enable Google Analytics by entering your tracking id
+SectionPagesMenu = "sectionmenu"
+enableRobotsTXT = "true"
+disableKinds = ["RSS"]
+
+[Author]
+    name = "Sydney Informatics Hub"
+    bio = "Sydney Informatics Hub is a core research facility of the University of Sydney."
+    avatar = "img/avatar.png"
+
+[Params]
+    subtitle = "" # Subtitle of your site
+    description = "Sydney Informatics Hub" # Description of your site
+    logoUrl = "img/USydLogoWhite.svg"
+    logoLink = "https://www.sydney.edu.au"
+    opengraph = true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = false
+    post_navigation = false
+
+[Paginator]
+    HasPrev=false
+    HasNext=false
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = false
+    categories = true # Enable "Categories" widget
+    tags = false # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -120
+    identifier = "home"
+    url = "/"
+
+[[menu.main]]
+    name = "Services"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    identifier = "services"
+    url = "/services/"
+
+    [[menu.main]]
+        name = "Data Science Expertise"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -90
+        identifier = "data-science"
+        url = "/services/data-science/"
+        parent = "services"
+
+    [[menu.main]]
+        name = "Research Computing Services"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -85
+        identifier = "artemis"
+        url = "/services/artemis/"
+        parent = "services"
+
+    [[menu.main]]
+        name = "Research Data Management"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -80
+        identifier = "rdm"
+        url = "/rdm/"
+        parent = "services"
+
+    [[menu.main]]
+        name = "Bioinformatics"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -75
+        identifier = "bioinformatics"
+        url = "/services/bioinformatics/"
+        parent = "services"
+
+    [[menu.main]]
+        name = "Statistical Consulting"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -70
+        identifier = "statistics"
+        url = "/services/statistics/"
+        parent = "services"
+
+    [[menu.main]]
+        name = "What to expect from SIH assistance"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -60
+        identifier = "expectations"
+        url = "/services/expectations/"
+        parent = "services"
+
+# [[menu.main]]
+#     name = "Tools"
+#     pre = "<i class='fa fa-road'></i>"
+#     weight = -100
+#     identifier = "software"
+#     url = "/services/software/"
+#
+#     [[menu.main]]
+#         name = "Research Data Platforms"
+#         pre = "<i class='fa fa-road'></i>"
+#         weight = -90
+#         identifier = "tools-data"
+#         url = "/services/software/#toolsrdp"
+#         parent = "software"
+#
+#     [[menu.main]]
+#         name = "Research Computing Services"
+#         pre = "<i class='fa fa-road'></i>"
+#         weight = -80
+#         identifier = "tools-compute"
+#         url = "/services/software/#toolsrcs"
+#         parent = "software"
+#
+#     [[menu.main]]
+#         name = "Bioinformatics"
+#         pre = "<i class='fa fa-road'></i>"
+#         weight = -70
+#         identifier = "tools-bio"
+#         url = "/services/software/#toolsbio"
+#         parent = "software"
+
+	# [[menu.main]]
+	#         name = "Code Repository - GitHub"
+	#         pre = "<i class='fa fa-road'></i>"
+	#         weight = -96.5
+	#         identifier = "code-repository"
+	#         url = "/code-repository/"
+	#         parent = "software"
+
+[[menu.main]]
+	name = "Training/Events"
+	pre = "<i class='fa fa-road'></i>"
+	weight = -95
+	identifier = "training"
+	url = "/training/"
+
+	[[menu.main]]
+		name = "Sign Up for Training Mailing List"
+		pre = "<i class='fa fa-road'></i>"
+		weight = -90
+		identifier = "train-mailinglist"
+		url = "https://mailman.sydney.edu.au/mailman/listinfo/computing_training"
+		parent = "training"
+
+	[[menu.main]]
+		name = "Calendar"
+		pre = "<i class='fa fa-road'></i>"
+		weight = -90
+		identifier = "train-calendar"
+		url = "/training/#calendar"
+		parent = "training"
+
+	[[menu.main]]
+		name = "Hacky Hour"
+		pre = "<i class='fa fa-road'></i>"
+		weight = -85
+		identifier = "train-hacky"
+		url = "/hackyhour/"
+		parent = "training"
+
+	[[menu.main]]
+  		name = "Further Training"
+  		pre = "<i class='fa fa-road'></i>"
+  		weight = -80
+  		identifier = "train-more"
+  		url = "/training/furthertraining/"
+  		parent = "training"
+
+  [[menu.main]]
+  		name = "SIH Course Slides"
+  		pre = "<i class='fa fa-road'></i>"
+  		weight = -80
+  		identifier = "train-notes"
+  		url = "/training/coursedocs"
+  		parent = "training"
+
+[[menu.main]]
+    name = "Projects"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -90
+    identifier = "projects"
+    url = "/projects/"
+
+[[menu.main]]
+    name = "News"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -85
+    identifier = "news"
+    url = "/news/"
+
+    [[menu.main]]
+  		name = "Blog"
+  		pre = "<i class='fa fa-road'></i>"
+  		weight = -90
+  		identifier = "blog"
+  		url = "/blogs/"
+  		parent = "news"
+
+[[menu.main]]
+    name = "Jobs"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -83
+    identifier = "jobs"
+    url = "/jobs/"
+
+[[menu.main]]
+    name = "Contact Us"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -80
+    identifier = "contact"
+    url = "/contact/"
+    [[menu.main]]
+        name = "People"
+        pre = "<i class='fa fa-road'></i>"
+        weight = -70
+        identifier = "people"
+        url = "/people/"
+        parent = "contact"
+    [[menu.main]]
+  	    name = "Assistance Request Form"
+  	    pre = "<i class='fa fa-road'></i>"
+  	    weight = -70
+  	    identifier = "assistance"
+  	    url = "/help/" #"https://goo.gl/9VkMXN"
+   		  parent = "contact"
+
+# [[menu.main]]
+#     name = "Blog"
+#     pre = "<i class='fa fa-road'></i>"
+#     weight = -70
+#     identifier = "blog"
+#     url = "/blogs/"
+
+
+[[menu.secondary]]
+    name = "Secondary Menu Item"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -50
+    identifier = "secondary"
+    url = "/secondary/"
+[[menu.secondary]]
+    name = "Secondary Menu Item Child"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -50
+    identifier = "secondarychild"
+    url = "/secondarychild/"
+    parent = "secondary"
+[[menu.secondary]]
+    name = "Secondary Menu Item 2"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -40
+    identifier = "secondary2"
+    url = "/secondary2/"
+
+
+# bios
+[[bios]]
+  [[hayim]]
+  name = "Hayim Dar"
+  avatar = "/people/HayimDar.jpg"
+  bio = "Works in in the Research Computing team, focussing on Artemis HPC, modeling and simulation."
