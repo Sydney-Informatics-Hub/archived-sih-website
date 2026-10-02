@@ -1,0 +1,70 @@
+# Build the archived SIH website with Hugo and publish it to GitHub Pages.
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches: [main]      # change if your default branch is "master"
+  workflow_dispatch:      # allows manual runs from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # The theme/templates break on Hugo >= 0.55 (see README), so stay on 0.54.0.
+  HUGO_VERSION: 0.54.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Hugo ${{ env.HUGO_VERSION }}
+        run: |
+          curl -sSL -o hugo.tar.gz \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz"
+          tar -xzf hugo.tar.gz hugo
+          sudo mv hugo /usr/local/bin/hugo
+          hugo version
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Templates and content use root-absolute links (href="/services/...").
+      # Those 404 when the site lives under /archived-sih-website/, so prefix
+      # them with the Pages base path (empty, and a no-op, on a custom domain).
+      - name: Prefix root-absolute links with the Pages base path
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          if [ -n "$BASE_PATH" ]; then
+            find public -name '*.html' -print0 | xargs -0 perl -pi -e \
+              's{((?:href|src|content|action)=["'"'"'])/(?!/|\Q$ENV{BASE_PATH}\E/)}{$1$ENV{BASE_PATH}/}g'
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -10,6 +10,6 @@ Stephen Kolmann attended the e-Research Australasia 2017 conference and presente
 
 [Stephen's poster, "HPC at the University of Sydney - Balancing user experience with system utilisation" is available here.](HPC_at_The_University_of_Sydney_Balancing_user_experience_with_system_utilisation.pdf)
 
-{{< tweet 920778502642704384 >}}
+[View tweet](https://twitter.com/i/status/920778502642704384)
 
 {{% shareButtons %}}

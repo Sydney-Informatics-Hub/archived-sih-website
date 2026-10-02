@@ -8,7 +8,7 @@ thumbnail = "news/RafaelCVPR2018.jpg"
 
 SIH data scientist and PhD student Rafael Pôssas presented at the 2018 Conference on Computer Vision and Pattern Recognition in Salt Lake City, Utah. His work is applying reinforcement learning, convolution neural networks and reinforcement neural networks to Egocentric Activity Recognition in wearables, balancing the tradeoff between predictive accuracy and low energy usage. The technology aims to help ageing people maitain their independence for longer by helping them to track their activity.
 
-{{< instagram BkSl858jlkB >}}
+[View on Instagram](https://instagram.com/p/BkSl858jlkB/)
 
 Also while at the conference, Rafael, Fabio and Sheila [got a new GPU from NVIDIA](https://www.digitaltrends.com/computing/nvidia-gives-titan-x-cards-free-to-ai-researchers/amp/)!
 

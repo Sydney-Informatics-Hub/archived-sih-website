@@ -4,7 +4,6 @@ languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "UA-103247639-1" # Enable Google Analytics by entering your tracking id
 SectionPagesMenu = "sectionmenu"
 enableRobotsTXT = "true"
 disableKinds = ["RSS"]
