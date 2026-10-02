@@ -1,1 +1,2062 @@
-[]
+[
+  {
+    "fields": {
+      "Body": "SIH helped to apply machine classification techniques for predicting the survival time of pancreatic cancer patients that treated with surgery.",
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling"
+      ],
+      "Clients": [
+        "Associate Professor Fabio Ramos, School of Information Technologies and Centre for Translational Data Science"
+      ],
+      "Contact first name": "Fabio",
+      "Contact last name": "Ramos",
+      "Cost": 5.0,
+      "End date": "2017-08-22",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "SIH manager approves, awaiting client approval",
+      "SIH Staff": [
+        "Dr Maryam Montazerolghaem "
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-04-03",
+      "Techniques and Technologies": [
+        "Survival analysis ",
+        "Classification and survival analysis"
+      ],
+      "Title": "Pancreatic cancer survival analysis using classification"
+    },
+    "id": "16851",
+    "key": "PIPE-120",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16851"
+  },
+  {
+    "fields": {
+      "Body": "Police worldwide have adopted the use of body worn cameras but have not reliably examined the attitudes of police detainees towards these cameras. Australian detainee perceptions of police body worn cameras was explored using data from the Drug Use Monitoring in Australia (DUMA) survey.  The analysis helped show limited difference in detainee attitudes based on the information collected in the surveys, supporting the need for further study of the issue. The results of the work were presented at the Australian and New Zealand Society of Criminology 2017 conference.",
+      "Centre": [
+        "Centre for Translational Data Science"
+      ],
+      "Classification Deliverables": [
+        "Transformed data",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Description and basic visualization",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "Dr Roman Marchant Matus, Centre for Translational Data Science",
+        "Professor Murray Lee, Sydney Law School"
+      ],
+      "Contact first name": "Roman",
+      "Contact last name": "Marchant",
+      "Cost": 12.0,
+      "Deliverables": [
+        "Data transformation",
+        "Analysis to support papers",
+        "Conference presentation"
+      ],
+      "End date": "2017-07-06",
+      "Faculty": [
+        "The University of Sydney Law School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "SIH manager approves, awaiting client approval",
+      "SIH Staff": [
+        "David Kohn"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-04-24",
+      "Techniques and Technologies": [
+        "Python",
+        "R",
+        "Survey analysis",
+        "Bayesian linear regression",
+        "Predictive modelling"
+      ],
+      "Title": "Analysing Perceptions of Police Worn Body Cameras by Detainees"
+    },
+    "id": "16847",
+    "key": "PIPE-116",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16847"
+  },
+  {
+    "fields": {
+      "Body": "Nerve excitability measurements can identify patterns of nerve dysfunction associated with many diseases of the nervous system. The researchers manage a database containing around 20 years' of peripheral nerve excitability studies. A software package, QTRAC, is used to generate ~35 properties that are analysed in a research context. Additional information is incorporated to help make a diagnosis, such as clinical survey data, and the temperature of the nerve at the time of the test. Importantly, diagnosis of the disorder is not always 100% accurate. SIH used machine learning to predict the likelihood motor neuron disease for a patient given nerve excitability measurements. The model had reasonable ability to rank individual cases in order of increasing MND risk. SIH delivered this model in a software package for future use in research as well as a clinical setting, with the intention of improving the speed and accuracy of MND diagnosis to improve treatment outcomes for patients.",
+      "Centre": [
+        "Brain and Mind Centre"
+      ],
+      "Classification Deliverables": [
+        "Software",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool",
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling"
+      ],
+      "Clients": [
+        "Dr Susanna Parks",
+        "Tiffany Li"
+      ],
+      "Contact first name": "Susanna",
+      "Contact last name": "Park",
+      "Contact role": "Senior Lecturer - Physiology Medicine",
+      "Cost": 13.5,
+      "Deliverables": [
+        "Report detailing analysis methods and conclusions.",
+        "Software implementing predictive model."
+      ],
+      "End date": "2017-11-10",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Alex Judge"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-05-22",
+      "Techniques and Technologies": [
+        "Python",
+        "Covariance estimation with shrinkage",
+        "Mutual information",
+        "XGBoost"
+      ],
+      "Title": "Identifying Nerve Function Profiles in Motor Neurodegenerative Disorders"
+    },
+    "id": "16548",
+    "key": "PIPE-99",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16548"
+  },
+  {
+    "fields": {
+      "Body": "Research Environment for Ancient Documents (READ) is an integrated Open Source web platform for epigraphical and manuscript research. It allows digital images of texts to be annotated, and for multiple annotations to be maintained for critical analysis.\r\n\r\nThe READ research and development team consulted with SIH because they had trouble getting their software to perform well with long texts. SIH Research Engineers helped them to identify parts of the system that were slower than was reasonable. Their software engineers were able to then resolve these bottlenecks, enabling the READ system to be more widely adopted in archaeology, history and manuscript studies.",
+      "Classification Deliverables": [
+        "Verbal advice"
+      ],
+      "Clients": [
+        "Ian McCrab",
+        "Dr Mark Allon, School of Languages and Cultures"
+      ],
+      "Contact first name": "Ian",
+      "Contact last name": "McCrabb",
+      "Cost": 0.2,
+      "End date": "2017-03-14",
+      "Faculty": [
+        "Faculty of Arts and Social Sciences"
+      ],
+      "Has Large Image": "No",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-02-01",
+      "Techniques and Technologies": [
+        "Scalability",
+        "Software engineering"
+      ],
+      "Title": "Research Environment for Ancient Documents (READS) efficiency"
+    },
+    "id": "16537",
+    "key": "PIPE-88",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16537"
+  },
+  {
+    "fields": {
+      "Body": "The \u201cObjective Detainee Classification System\u201d project contributed to a report by the Sydney Law School to Juvenile Justice NSW regarding an assessment of their juvenile risk classification systems. \r\n\r\nThe Juvenile Justice risk classification system is important as a detainee\u2019s risk classification helps determine what activities a detainee can partake in while in detention as well as the level of security need for a given detainee. \r\n\r\nThe way a detainee is treated can have drastic impacts on their recidivism and rehabilitation prospects. \r\n\r\nSIH helped to deliver basic analysis of the demographics over the past 20 years of Juvenile Justice detainees as well as visualizations and statistics of the outcomes of the Juvenile Justice detainee risk classification system.\r\n\r\nSIH also helped to develop an interactive app to examine the sensitivity of the current risk classification system to changes in the risk classification scoring system. \r\n\r\nThe report was delivered to Juvenile Justice in early 2018 and was part of a bid by project members to fully examine Juvenile Justice\u2019s classification scope beyond the more limited examination in the delivered report. ",
+      "Centre": [
+        "Centre for Translational Data Science"
+      ],
+      "Classification Deliverables": [
+        "Verbal advice",
+        "Software",
+        "Transformed data",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Description and basic visualization",
+        "Creative visualization",
+        "Time series"
+      ],
+      "Clients": [
+        "Dr Roman Marchant Matus, Centre for Translational Data Science",
+        "Dr Garner Clancey, Sydney Law School"
+      ],
+      "Contact first name": "Roman",
+      "Contact last name": "Marchant",
+      "Cost": 16.0,
+      "Deliverables": [
+        "Report to Juvenile Justice",
+        "Presentation to Juvenile Justice board",
+        "Prototype application"
+      ],
+      "End date": "2018-01-31",
+      "Faculty": [
+        "The University of Sydney Law School"
+      ],
+      "Reason not public": "Needs images. Approval from clients not yet requested.",
+      "SIH Staff": [
+        "David Kohn"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-09-01",
+      "Techniques and Technologies": [
+        "Python",
+        "SQL",
+        "Jupyter",
+        "Visualization",
+        "Software design",
+        "Predictive modelling"
+      ],
+      "Title": "Objective Detainee Classification System"
+    },
+    "id": "16532",
+    "key": "PIPE-83",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16532"
+  },
+  {
+    "fields": {
+      "Body": "Patients who discharge against medical advice (DAMA) from hospital carry a significant risk of readmission and have increased rates of morbidity and mortality. Using five years of admissions and diagnosis data, we sought to identify the demographic, clinical and administrative characteristics of DAMA patients in the Sydney Children's Hospital Network. Using a bayesian logistic regression framework, we found statistically significant predictors of DAMA in a given admission were hospital site, a mental health/behavioural diagnosis, Aboriginality, emergency rather than elective admissions, a gastrointestinal diagnosis and a history of previous DAMA. Identification of these predictors of DAMA provides opportunities for intervention at a practice and policy level in order to prevent adverse outcomes for patients.",
+      "Classification Deliverables": [
+        "Software",
+        "Paper"
+      ],
+      "Classification Methodologies": [
+        "Inferential modelling",
+        "Data linkage",
+        "Description and basic visualization",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "Dr. Louise Sealy",
+        "Assoc. Prof. Karen Zwei",
+        "Assoc. Prof. Hasantha Gunasekera"
+      ],
+      "Contact first name": "Louise",
+      "Contact last name": "Sealy",
+      "Cost": 13.0,
+      "Deliverables": [
+        "Paper:",
+        "Predictors of Discharge Against Medical Advice in a Tertiary Paediatric Hospital.",
+        "Louise Sealy, Karen Zwi, Gordon McDonald, Aldo Saavedra, Lisa Crawford and Hasantha Gunasekera",
+        " Int. J. Environ. Res. Public Health 2019, 16(8), 1326; doi:10.3390/ijerph16081326"
+      ],
+      "End date": "2017-02-28",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Papers coauthored": [
+        "Predictors of Discharge Against Medical Advice in a Tertiary Paediatric Hospital.",
+        "Louise Sealy, Karen Zwi, Gordon McDonald, Aldo Saavedra, Lisa Crawford and Hasantha Gunasekera",
+        " Int. J. Environ. Res. Public Health 2019, 16(8), 1326; doi:10.3390/ijerph16081326"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Gordon McDonald",
+        "Dr. Aldo Saavedra"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2016-11-11",
+      "Techniques and Technologies": [
+        "R, Bayesian Logistic Regression, Electronic Medical Records, Data Engineering, Data Linkage"
+      ],
+      "Title": "Discharge against medical advice in the Sydney Children's Hospital Network"
+    },
+    "id": "16527",
+    "key": "PIPE-78",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16527"
+  },
+  {
+    "fields": {
+      "Body": "The incidence of crime the impacts of societal and individual characteristics on criminal behaviour can be explored using modern machine learning methods, answering important questions about crime, such as:\r\n\u2022\tWhat is the probability of a crime occurring at a location?\r\n\u2022\tWhat are the characteristics of the population that affect the incidence of crime?\r\nOur work implements novel Bayesian machine learning techniques to modelling the dependency between offence data and demographic characteristics and spatial location. This provides a fully probabilistic approach to modelling crime which reflects all uncertainties in the prediction of offences as well as the uncertainties surrounding model parameters. By using Bayesian updating, these predictions and inferences are dynamic in the sense that they change as new information becomes available. Our model has been applied to offence data, such as domestic violence-related assaults, burglary and motor vehicle theft, in New South Wales (NSW), Australia. The results highlight the strength of the technique by validating the factors that are associated with high and low criminal activity.",
+      "Classification Deliverables": [
+        "Software",
+        "Transformed data",
+        "Paper"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Clients": [
+        "Dr. Roman Marchant"
+      ],
+      "Contact first name": "Roman",
+      "Contact last name": "Marchant",
+      "Contact role": "Lead project researcher",
+      "Cost": 50.0,
+      "Deliverables": [
+        "- Publication in Security Informatics: Marchant Matus, R., Haan, S., Clancey, G., Cripps, S. (2018). Applying machine learning to criminology: semi-parametric spatial-demographic Bayesian regression.",
+        "- Several Conference presentations by Roman Marchant and Sebastian Haan",
+        "- Reports to Law Enforcement Agencies and Faculty of Law",
+        "- Software Python package",
+        "- SQL Database"
+      ],
+      "End date": "2017-09-26",
+      "Faculty": [
+        "Faculty of Engineering and Information Technologies"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Papers coauthored": [
+        "Publication in Security Informatics: Marchant Matus, R., Haan, S., Clancey, G., Cripps, S. (2018). Applying machine learning to criminology: semi-parametric spatial-demographic Bayesian regression"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Sebastian Haan"
+      ],
+      "SIH Team": "Data Science",
+      "Software published": "https://github.com/sebhaan/GPplus",
+      "Start date": "2016-08-02",
+      "Techniques and Technologies": [
+        "Bayesian modelling",
+        "Gaussian processes",
+        "MCMC",
+        "Python",
+        "SQL",
+        "Spatial data processing (GIS)",
+        "Data Visualisation and Mapping",
+        "LaTex",
+        "Publication Writing and Figures"
+      ],
+      "Title": "Applying Machine Learning to Criminology"
+    },
+    "id": "16525",
+    "key": "PIPE-76",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16525"
+  },
+  {
+    "fields": {
+      "Body": "Medical data is under-used for its potential to inform clinical practice. SIH developed a visual dashboard to display information about lymphoedema in breast cancer patients. A prototype web application with an easy to use interactive dashboard was developed to help understand a patient's journey and assess the results of different cohorts of patients. User and expert workshops helped optimise the design.",
+      "Centre": [
+        "Charles Perkins Centre"
+      ],
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Clients": [
+        "Professor Tim Shaw, Director Research in Implementation Science and eHealth, Charles Perkins Centre",
+        "Anna Janssen",
+        "Candice Kielly-Carroll"
+      ],
+      "Contact first name": "Tim",
+      "Contact last name": "Shaw",
+      "Contact role": "Professor in eHealth",
+      "Cost": 26.0,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2017-12-31",
+      "Faculty": [
+        "Faculty of Health Sciences"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Papers coauthored": [
+        "Designing a dashboard for breast cancer multidisciplinary teams (submitted to JMIR) (Aldo Saavedra, Peter Thiem)"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "Reason not public": "Need images, would like youtube video. Approval not yet requested from client.",
+      "SIH Staff": [
+        "Dr Aldo Saavedra",
+        "Joshua Stretton",
+        "Peter Thiem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2016-08-15",
+      "Techniques and Technologies": [
+        "HTML, Javascript, CSS, Python, Medical Data, Dashboards, User Interface Design, Web Application, Data Engineering"
+      ],
+      "Title": "Breast Cancer Dashboard"
+    },
+    "id": "16515",
+    "key": "PIPE-66",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16515"
+  },
+  {
+    "fields": {
+      "Body": "Molecular markers measured within the primary tumour are used to determine if patients who have relapsed ovarian cancer will respond to a particular treatment. SIH helped to identify subsets of genes that are overexpressed / underexpressed in response to treatments, by developing statistical methods including dimensionality reduction and hypothesis testing.",
+      "Classification Deliverables": [
+        "Transformed data"
+      ],
+      "Clients": [
+        "Cristina Mapagu, Westmead Clinical School"
+      ],
+      "Contact first name": "Cristina",
+      "Contact last name": "Mapagu",
+      "Cost": 5.0,
+      "End date": "2018-02-19",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr Maryam Montazerolghaem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-08-15",
+      "Techniques and Technologies": [
+        "Statistical analysis",
+        "Machine learning ",
+        "Clustering"
+      ],
+      "Title": "Which treatment might patients with relapsed ovarian cancer respond to?"
+    },
+    "id": "15726",
+    "key": "PIPE-27",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/15726"
+  },
+  {
+    "fields": {
+      "Body": "Judging the likelihood of project success is a difficult and important aspect of project management. Projects can fail in many ways, such as overruns in cost, duration, failure to deliver benefit and failure to satisfy the project goals.\r\n\r\nThis project used survey data collected over the lifecycle of 1000 projects to build a machine learning model and prototype web application that would indicate the likelihood of success of the project.\r\n\r\nThis tool would be used for further demonstration and discussion of the idea with expert groups of project managers, such they can develop better and data driven approaches to lead to successful project management.\r\n",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling"
+      ],
+      "Clients": [
+        "Professor Lynn Crawford, School of Civil Engineering",
+        "Dr Terry Cooke-Davies",
+        "Dr Mike Steele"
+      ],
+      "Contact first name": "Lynn",
+      "Contact last name": "Crawford",
+      "Contact role": "Director, Project Management Program, School of Civil Engineering",
+      "Cost": 4.0,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2017-03-06",
+      "Faculty": [
+        "Faculty of Engineering and Information Technologies"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "Reason not public": "Would like youtube video.",
+      "SIH Staff": [
+        "Mr Peter Thiem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-02-10",
+      "Techniques and Technologies": [
+        "HTML, Javascript, Python, Linear Regression, Bayesian Variable Selection, Web App, Data Engineering"
+      ],
+      "Title": "A friendly way to estimate predicted project success"
+    },
+    "id": "15724",
+    "key": "PIPE-25",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/15724"
+  },
+  {
+    "fields": {
+      "Body": "The IMPALA database (http://www.impaladatabase.org/) contains migration and citizenship law and policy across countries and through time in a form that allows legislation, policy and some statistical data to be easily compared and measured. With one record for each visa type in each year, thousands of records of content have been entered, mostly manually, into a Qualtrics survey. SIH transformed the unwieldy manually-entered database to improve data exploration. We wrote software to ingest the Qualtrics responses (https://github.com/Sydney-Informatics-Hub/qualtrics-pandas), and to generate a more usable output with consistent metadata.",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Description and basic visualization"
+      ],
+      "Clients": [
+        "Professor Mary Crock, Sydney Law School"
+      ],
+      "Contact first name": "Mary",
+      "Contact last name": "Crock",
+      "Cost": 1.5,
+      "Deliverables": [
+        "Software",
+        "Processed data"
+      ],
+      "End date": "2017-01-19",
+      "Faculty": [
+        "The University of Sydney Law School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2016-10-25",
+      "Techniques and Technologies": [
+        "Data transformation",
+        "User interfaces",
+        "Spreadsheets"
+      ],
+      "Title": "Transforming IMPALA: International Migration Law and Policy Assessment Database"
+    },
+    "id": "15703",
+    "key": "PIPE-4",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/15703"
+  },
+  {
+    "fields": {
+      "Body": "This study aim to assess the acute respiratory infection (ARI) disease spectrum, duration of hospitalisation and outcome in children hospitalised with an ARI in Viet Nam.\r\nThe result indicates that acute respiratory infection is a major cause of paediatric hospitalisation in Viet Nam, characterised by prolonged hospitalisation for relatively mild disease. There is huge potential to reduce unnecessary hospital admission and cost.\r\n",
+      "Classification Deliverables": [
+        "Paper"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Description and basic visualization"
+      ],
+      "Clients": [
+        "Nguyen Thi Kim Phuong, Respiratory Department, Da Nang Hospital for Women and Children",
+        "Professor Ben Marais, The Children's Hospital at Westmead Clinical School and Deputy Director, Marie Bashir Institute for Infectious Diseases and Biosecurity "
+      ],
+      "Cost": 4.0,
+      "Deliverables": [
+        "Application paper "
+      ],
+      "End date": "2016-11-14",
+      "Faculty": [
+        "Faculty of Health Sciences"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Papers acknowledging": [
+        "T. K. P. Nguyen,  D. V. Nguyen, T. N. H. Truong,  M. D. Tran,  S. M. Graham  and B. J. Marais (2017), \"Disease spectrum and management of children admitted with acute respiratory infection in Viet Nam\", Tropical Medicine and Health, 22 (6), pp. 688-695. https://onlinelibrary.wiley.com/doi/full/10.1111/tmi.12874"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr Maryam Montazerolghaem "
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2016-10-31",
+      "Techniques and Technologies": [
+        "Data transforming ",
+        "Plotting ",
+        "data manipulating",
+        " R programming "
+      ],
+      "Title": "Disease spectrum and management of children admitted with acute respiratory infection in Viet Nam"
+    },
+    "id": "15701",
+    "key": "PIPE-2",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/15701"
+  },
+  {
+    "fields": {
+      "Body": "Most machine learning methods for digital soil mapping are based on point observations. SIH developed DeepSoil for researchers from the Institute of Agriculture to help them model grids of observations around the point of interest. The DeepSoil Python library takes images of covariates around sampling points as input to exploit spatial context information, enabling researchers to explore deep learning models for digital soil mapping.",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Methodologies": [
+        "Geospatial mapping"
+      ],
+      "Clients": [
+        "Professor Budiman Minasny",
+        "Yuxin Ma"
+      ],
+      "Contact first name": "Budiman",
+      "Contact last name": "Minasny",
+      "Contact role": "Professor",
+      "Cost": 4.2,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2019-09-13",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "No",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Di Lu",
+        "David Kohn",
+        "Dr. Maryam Montazerolghaem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-03-26",
+      "Techniques and Technologies": [
+        "Python",
+        "Deep learning",
+        "Geographic Information System (GIS)"
+      ],
+      "Title": "DeepSoil: a deep learning library for digital soil mapping\r\n"
+    },
+    "id": "18270",
+    "key": "PIPE-726",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18270"
+  },
+  {
+    "fields": {
+      "Body": "Predicting crop yield using a range of proximal and remote sensor measurements is area of active research. Such predictions are important for optimisation of crop management (e.g. nitrogen application) and robust associated uncertainty estimates help to improve this process and understand its limitations. We wrote code implementing a Bayesian regression model with spatially correlated residuals for application to wheat crop yield forecasting using a range of sensor data.\r\nWe used this to generate predictive maps of wheat yield with robust uncertainty bounds.",
+      "Centre": [
+        "Charles Perkins Centre"
+      ],
+      "Classification Deliverables": [
+        "Verbal advice",
+        "Software",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool",
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "AProf. Brett Whelan",
+        "Dr. Mario Fajardo Pedraza"
+      ],
+      "Contact first name": "Brett",
+      "Contact last name": "Whelan",
+      "Contact role": "A/Prof",
+      "Cost": 6.4,
+      "End date": "2019-08-02",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Alexander Judge"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-06-03",
+      "Techniques and Technologies": [
+        "Bayesian modelling",
+        "Regression",
+        "Kriging",
+        "Python"
+      ],
+      "Title": "Wheat yield prediction with uncertainty estimates"
+    },
+    "id": "18281",
+    "key": "PIPE-736",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18281"
+  },
+  {
+    "fields": {
+      "Body": "OmixLitMiner is a new tool that aims to help researchers reduce time spent on literature research post analysis and streamline the decision about which proteins or genes are the most interesting and most promising for follow-up experiments.\r\n\r\nThe goal of OmixLitMiner is to streamline the process of literature retrieval and provides result categorisation to assist researchers select appropriate leads for further research. \r\n\r\nWe helped the researchers package up their code into an easy-to-install R-package for distribution.\r\n\r\nTry it out: https://github.com/Sydney-Informatics-Hub/OmixLitMiner",
+      "Classification Deliverables": [
+        "Software",
+        "Paper"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data collection",
+        "Description and basic visualization"
+      ],
+      "Clients": [
+        "Professor Mark Molloy and Dr. Pascal Steffen, the Kolling Institute for medical research."
+      ],
+      "Contact first name": "Mark",
+      "Contact last name": "Molloy",
+      "Contact role": "Professor ",
+      "Cost": 2.0,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2019-07-26",
+      "Faculty": [
+        "Faculty of Medicine and Health"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Vijay Raghunath, Gordon McDonald"
+      ],
+      "SIH Team": "Data Science",
+      "Software published": "https://github.com/Sydney-Informatics-Hub/OmixLitMiner",
+      "Start date": "2019-06-06",
+      "Techniques and Technologies": [
+        "R, Software development, Web APIs"
+      ],
+      "Title": "OmixLitMiner: proteomics and genomics literature search tool"
+    },
+    "id": "18435",
+    "key": "PIPE-814",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18435"
+  },
+  {
+    "fields": {
+      "Body": "GemPy is a Python-based, open-source library for implicitly generating 3D structural geological models. It was designed from the ground up to support easy embedding in probabilistic frameworks for the uncertainty analysis of subsurface structures.\r\n\r\nSIH investigated the code's viability for the implementation of various additional sensor models as well the implementation of a data science-friendly Bayesian inference wrapper for easy experimentation with priors, likelihoods and sampling schemes. ",
+      "Centre": [
+        "Centre for Translational Data Science"
+      ],
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling"
+      ],
+      "Clients": [
+        "Richard Scalzo",
+        "Sally Cripps"
+      ],
+      "Contact first name": "Richard",
+      "Contact last name": "Scalzo",
+      "Contact role": "Senior Research Scientist",
+      "Cost": 7.0,
+      "Deliverables": [
+        "Software assessment",
+        "Open Source Software contribution"
+      ],
+      "End date": "2019-07-15",
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "David Kohn"
+      ],
+      "SIH Team": "Data Science",
+      "Software published": "https://github.com/cgre-aachen/gempy/",
+      "Start date": "2019-05-06",
+      "Techniques and Technologies": [
+        "Python",
+        "Theano",
+        "Open Source Software"
+      ],
+      "Title": "GemPy MCMC Sampling"
+    },
+    "id": "18180",
+    "key": "PIPE-685",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18180"
+  },
+  {
+    "fields": {
+      "Body": "The Centre for Translational Data Science's SPEED-EXTRACT project led by Dr Charmaine Tam and Dr Aldo Saavedra aims to harness insights from electronic medical record data associated with patients that present to hospital with symptoms associated with acute coronary syndrome. This project is supported by Sydney Health Partners and NSW Health and engages a multidisciplinary team of cardiology and data experts across local health districts. Sydney Informatics Hub has contributed to components of this project including developing the large-scale data pipeline, exploratory data analysis, consulting on study design, and a data audit tool. This project has just been successful in securing additional funding from NSW Health.",
+      "Clients": [
+        "Dr Charmaine Tam, Dr Aldo Saavedra"
+      ],
+      "Cost": 42.0,
+      "End date": "2019-06-28",
+      "Faculty": [
+        "Faculty of Engineering and Information Technologies"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Madhura Killedar, Di Lu, Gordon McDonald, Vijay Raghunath"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-02-01",
+      "Title": "SPEED-EXTRACT: Data Science for Electronic Medical Records"
+    },
+    "id": "17831",
+    "key": "PIPE-523",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17831"
+  },
+  {
+    "fields": {
+      "Body": "We assisted the Westmead Applied Research Centre to apply for the Google Impact AI Challenge, and are involved in the ongoing design and engineering to make use of the [$1M prize](https://sydney.edu.au/news-opinion/news/2019/08/07/google-awards-1m-to-university-of-sydney-to-put-ai-into-health.html). WARC called on our expertise in data science and natural language processing to revise their application and to support their case in interview for the award. Our involvement ensured that the proposal amounted to a realistic, operationalised application of artificial intelligence technologies.",
+      "Classification Deliverables": [
+        "Verbal advice",
+        "Grant application text"
+      ],
+      "Classification Dynamism": [
+        "Real-time analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Language as data"
+      ],
+      "Clients": [
+        "Prof. Clara Chow and Harry Klimis, Westmead Applied Research Centre, Sydney Medical School."
+      ],
+      "Contact first name": "Clara",
+      "Contact last name": "Chow",
+      "Contact role": "Centre Director",
+      "Cost": 1.0,
+      "End date": "2019-06-24",
+      "Faculty": [
+        "Faculty of Medicine and Health"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Dr. Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-06-10",
+      "Techniques and Technologies": [
+        "Reinforcement learning",
+        "Natural language processing"
+      ],
+      "Title": "Grant application support for cardiovascular AI impact"
+    },
+    "id": "18564",
+    "key": "PIPE-917",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18564"
+  },
+  {
+    "fields": {
+      "Body": "The Metabolic Cybernetics Lab at the Charles Perkins Centre has generated disparate Mass Spectrometry datasets for protein metabolism studies. With datasets stored in various formats and places, it has been difficult to search and compare experimental results.\r\n\r\nSIH developed ProteHome, a bioinformatics system providing a centralised data repository, with a web-based interface to facilitate the:\r\n\r\n* Standardisation of quantitative analysis results, with common specification of experimental metadata and formatting of analysis data. \r\n* Retrieving those results for protein(s) or modification(s) of interest, regardless of the version of protein identification number used in the stored experiment.\r\n* Management of submitted datasets using a comprehensive hierarchical storage structure.",
+      "Classification Deliverables": [
+        "Web app",
+        "Transformed data"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data-store development",
+        "Data linkage"
+      ],
+      "Clients": [
+        "Prof. David James, Dr. James Burchfield, Metabolic Cybernetics Lab (Charles Perkins Centre). "
+      ],
+      "Contact first name": "James",
+      "Contact last name": "Burchfield",
+      "Contact role": "Researcher",
+      "Cost": 14.0,
+      "Deliverables": [
+        "Web app",
+        "Database"
+      ],
+      "End date": "2019-06-13",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Di Lu, Dr. Joel Nothman and Dr. Darya Vanichkina"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-12-10",
+      "Techniques and Technologies": [
+        "Web development",
+        "Database design",
+        "Single-page application",
+        "Data Linkage",
+        "Python",
+        "TypeScript",
+        "HTML/CSS"
+      ],
+      "Testimonial": "\"I just wanted to let you know that we have almost completed a project working collaboratively with SIH on developing a \"User-Friendly\" proteomics DataBase that enables safe storage of large amounts of disparate mass spec data and lots of options for searching and interrogating these data.  This software is currently being beta tested by people in CPC and so far it has received rave reviews.  I have to say I am enormously impressed by this facility!  This is one of the best initiatives the university has launched at least during my time here and that is a great credit to you and your colleagues.  One of the reasons this facility works so well is the way it is organised as a centralised team.  When our project began we met with the entire leadership team at SIH as well as the on-ground engineer who would ultimately perform the project and we carefully mapped out the project together.  The engineer was then dispatched to CPC to undertake the project. During this period the engineer maintained close links with his leadership team at SIH thus providing him with a hugely supportive environment and we all also had many meetings with the engineer and the leadership group of SIH and this was what made it so effective.  Incidentally, this is exactly the way that the Swiss Bioinformatics Institute works, which is one of the most effective bioinformatics service units in the world.  This project has been so successful we are now in discussion with SIH about Phase 2 of this project which should take us even further ahead in this important area. These are the sorts of initiatives that enable research to reach a new level and to stand out above what is going on at other places throughout the world.  This is the only way we will be able to achieve world class status and I want to thank you for your support and hope that the university will continue to support this very important initiative in exactly the same structure that the leadership team at SIH have done in the past\"\r\nProf David James,  Leonard P Ullmann Chair in Metabolic Systems Biology, The Charles Perkins Centre May 2019",
+      "Title": "ProteHome: Proteomics Experimental Results Database"
+    },
+    "id": "17385",
+    "key": "PIPE-312",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17385"
+  },
+  {
+    "fields": {
+      "Body": "Dairy cows can have their pasture feeding supplemented with concentrate, which can help to manage deficits in pasture nutrition and ultimately increase milk production. Traditionally, all cows are allocated the same amount of concentrate. However, past studies have shown some success with tailoring the allocation of concentrate to the individual cow. This project aimed to optimise individual allocation of concentrate supplement to improve the amount of milk produced and the overall production of a pasture-based dairy system. It deployed a multifactorial model developed previously by the Centre for Translational Data Science, Sydney Informatics Hub and Camden within the University of Sydney.",
+      "Centre": [
+        "Australian Centre for Climate and Environmental Law"
+      ],
+      "Classification Deliverables": [
+        "Web app"
+      ],
+      "Classification Methodologies": [
+        "Optimisation"
+      ],
+      "Clients": [
+        "Professor Yani Garcia, Dr. Cameron Clark, School of Life and Environmental Sciences"
+      ],
+      "Contact first name": "Cameron",
+      "Contact last name": "Clark",
+      "Contact role": "Senior Research Fellow",
+      "Cost": 12.0,
+      "End date": "2019-04-17",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Dr. Nikzad B. Rizvandi"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-10-07",
+      "Title": "Milk yield optimisation using Bayesian regression"
+    },
+    "id": "17722",
+    "key": "PIPE-472",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17722"
+  },
+  {
+    "fields": {
+      "Body": "SIH supported a grant proposal by the Centre for Translational Data Science, by demonstrating the value of using Bayesian modelling when collecting and analysing longitudinal data on childhood obesity. We built cross-sectional Bayesian variable selection models to select important factors and models for predicting children's BMI, mental health and sleep quality across multiple ages, for each child in the Longitudinal Study of Australian Children (LSAC) study. A vector-autoregressive model was then applied to visualise the unexplained variation in the preceding models. We constructed visualisations to demonstrate the importance of understanding uncertainty over the course of data collection, and the potential for using Bayesian adaptive trials during collection.",
+      "Centre": [
+        "Centre for Translational Data Science"
+      ],
+      "Classification Deliverables": [
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Description and basic visualization",
+        "Creative visualization",
+        "Time series",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "Sally Cripps",
+        "Richard Morris"
+      ],
+      "Contact first name": "Sally",
+      "Contact last name": "Cripps",
+      "Contact role": "Director of Centre for Translational Data Science",
+      "Cost": 4.0,
+      "Deliverables": [
+        "Data analysis",
+        "Visualisation"
+      ],
+      "End date": "2019-04-18",
+      "Faculty": [
+        "Faculty of Health Sciences"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "David Kohn"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-03-14",
+      "Techniques and Technologies": [
+        "Bayesian variable selection",
+        "Regularised modelling",
+        "Vector autoregression",
+        "R",
+        "Python"
+      ],
+      "Title": "Bayesian Updating for Childhood Obesity Grant Proposal"
+    },
+    "id": "18179",
+    "key": "PIPE-684",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18179"
+  },
+  {
+    "fields": {
+      "Body": "A stoichiometry table is useful for calculating and recording quantities of reagents. SIH coded a flexible and reliable widget for entering this data in a lab notebook, supporting University's use of the LabArchives notebooks in chemistry. Use it: [labarchives-stoichiometry-widget](https://github.com/Sydney-Informatics-Hub/labarchives-stoichiometry-widget)!",
+      "Classification Deliverables": [
+        "Software",
+        "Web app"
+      ],
+      "Clients": [
+        "Samuel Banister"
+      ],
+      "Contact first name": "Sam",
+      "Contact last name": "Banister",
+      "Contact role": "Senior Research Fellow",
+      "Cost": 1.0,
+      "End date": "2019-04-17",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Joel Nothman",
+        "Vijay Raghunath"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-03-21",
+      "Techniques and Technologies": [
+        "Web development",
+        "Javascript"
+      ],
+      "Title": "Stoichiometry Table Widget for LabArchives eNotebooks"
+    },
+    "id": "18273",
+    "key": "PIPE-729",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/18273"
+  },
+  {
+    "fields": {
+      "Body": "cBioportal is the Westmead Institute for Medial Research's cancer genomics database and web platform. It provides visualization, analysis and download of large-scale cancer genomics data sets, so that users can find altered genes and networks within the genomic studies on the database. SIH extended the app's capabilities to be able to incorporate melanoma images, genetic data and studies.",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data-store development"
+      ],
+      "Clients": [
+        "Professor Graham Mann, Professor Anna DeFazio, Dr James Wilmott, Natalie Bouantoun, Pamela Provan"
+      ],
+      "Contact first name": "Graham",
+      "Contact last name": "Mann",
+      "Cost": 15.0,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2019-03-22",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "David Kohn",
+        "Vijay Raghunath"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-03-12",
+      "Techniques and Technologies": [
+        "Java",
+        "Javascript",
+        "Databases",
+        "Genomics"
+      ],
+      "Title": "cBioPortal Melanoma Data"
+    },
+    "id": "17940",
+    "key": "PIPE-569",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17940"
+  },
+  {
+    "fields": {
+      "Body": "LCT studies how knowledge is built through teaching, and in order to determine the trajectory of knowledge building, proposes to categorise each clause in a teaching transcript. SIH made this process of labelling clauses much faster and scalable. They did so firstly by developing software with natural language processing technology that converts a lesson transcript into a spreadsheet where each row contains a clause to be categorised. Secondly, they developed a machine learning classifier to learn from these spreadsheets and predict the labels of future clauses. Finally, SIH developed techniques to visualise the trajectory of knowledge building through a lesson where clauses have been categorised.",
+      "Classification Deliverables": [
+        "Software",
+        "Transformed data",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data collection",
+        "Predictive modelling",
+        "Description and basic visualization",
+        "Language as data"
+      ],
+      "Clients": [
+        "Dr. Yaegan Doran, Linguistics and LCT Centre",
+        "Professor Karl Maton, [LCT Centre for Knowledge Building](https://sydney.edu.au/arts/our-research/centres-institutes-and-groups/lct-centre-for-knowledge-building.html)"
+      ],
+      "Contact first name": "Karl",
+      "Contact last name": "Maton",
+      "Cost": 4.0,
+      "Deliverables": [
+        "Report"
+      ],
+      "End date": "2019-03-28",
+      "Faculty": [
+        "Faculty of Arts and Social Sciences"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-07-26",
+      "Techniques and Technologies": [
+        "natural language processing",
+        "spreadsheets",
+        "annotation",
+        "data creation"
+      ],
+      "Title": "Labelling Clause Type at Scale for LCT"
+    },
+    "id": "17010",
+    "key": "PIPE-156",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17010"
+  },
+  {
+    "fields": {
+      "Body": "Monitoring livestock has historically been labour intensive. The advent of on-animal sensors means this monitoring can be conducted remotely, continuously, and accurately. The ability to identify the precise time when sheep are mating using ram-mounted accelerometer data would unlock unprecedented information on the reproductive performance of these animals. We fit a classifier model to data from collar accelerometers labelled by videoing rams in the presence of ewes in oestrus. We then wrote code to detect change points in new acceleration data and to predict the occurence of mating events.",
+      "Classification Deliverables": [
+        "Verbal advice",
+        "Software",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Time series"
+      ],
+      "Clients": [
+        "AProf. Simon de Graaf",
+        "Dr Jessica Rickard",
+        "Ms Emmah Tumeth"
+      ],
+      "Contact first name": "Emmah",
+      "Contact last name": "Tumeth",
+      "Contact role": "PhD student",
+      "Cost": 5.0,
+      "Deliverables": [
+        "Prototype code performing classification successfully on pilot time-series data.",
+        "Report on methods and results.",
+        "Verbal advice on future data collection."
+      ],
+      "End date": "2019-03-18",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr Madhura Killedar",
+        "Dr Alex Judge"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-01-14",
+      "Techniques and Technologies": [
+        "Time series analysis",
+        "Change point detection",
+        "Classification",
+        "Feature engineering",
+        "Random forest classifier",
+        "Python",
+        "Jupyter notebook",
+        "R"
+      ],
+      "Title": "Identifying ram mating behaviour"
+    },
+    "id": "17807",
+    "key": "PIPE-516",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17807"
+  },
+  {
+    "fields": {
+      "Body": "eSCAPE is a parallel landscape evolution model, built to simulate topography dynamic at various space and time scales.\r\nSIH benchmarked eSCAPE's performance across multiple CPUs and nodes on the University of Sydney's Artemis HPC, visualizing the program's runtimes as well as the runtimes of specific functions within the program.\r\nSIH created reusable scripts to allow the researcher to easily assess eSCAPE's performance in the future as code development continues.",
+      "Classification Deliverables": [
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool",
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Description and basic visualization",
+        "Creative visualization"
+      ],
+      "Clients": [
+        "Dr. Tristan Salles"
+      ],
+      "Contact first name": "Tristan",
+      "Contact last name": "Salles",
+      "Contact role": "Lecturer",
+      "Cost": 4.0,
+      "Deliverables": [
+        "Report on scaling behaviour of code",
+        "Scripts to repeat experiments and generate output"
+      ],
+      "End date": "2019-02-28",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "David Kohn"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2019-01-08",
+      "Techniques and Technologies": [
+        "HPC",
+        "bash",
+        "Python",
+        "eSCAPE",
+        "Docker"
+      ],
+      "Title": "eSCAPE parallel landscape evolution benchmarking"
+    },
+    "id": "17820",
+    "key": "PIPE-520",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17820"
+  },
+  {
+    "fields": {
+      "Body": "Oral health promotion for younger-aged children is more widely conducted and better understood than that directed at adolescents. The aim of this systematic review was to evaluate the effectiveness of oral health interventions in improving the knowledge, attitudes, behaviour and oral health status of healthy adolescents. We looked at gingival health, plaque levels, and dental caries within randomized controlled trials, as reported in the literature. The interventions reported ranged from single session interventions to community-wide programs with many also including clinical preventive procedures and take-home products. Half of the programs used a health behaviour change theory to inform their intervention. The meta-analysis showed an improvement in all three of gingival score, plaque score and the number of decayed missing and filled tooth surfaces after an oral health promotion intervention, and with respect to a control group that did not receive the intervention.",
+      "Classification Deliverables": [
+        "Paper"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Clients": [
+        "Dr. Carrie Tsai",
+        "Dr. Michelle Irving"
+      ],
+      "Contact first name": "Carrie",
+      "Contact last name": "Tsai",
+      "Contact role": "HDR student ",
+      "Cost": 3.0,
+      "Deliverables": [
+        "Published Paper"
+      ],
+      "End date": "2019-03-01",
+      "Faculty": [
+        "Faculty of Dentistry"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Papers coauthored": [
+        "Dr. Carrie Tsai",
+        "Dr. Michelle Irving"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Gordon McDonald"
+      ],
+      "SIH Team": "Statistical Expertise",
+      "Start date": "2018-10-03",
+      "Techniques and Technologies": [
+        "Meta-analysis, R"
+      ],
+      "Testimonial": "The statistician Gordon worked with me in person to fully understand each step behind the meta-analysis that I was undertaking. I appreciated the fact that it was a collaborative and learning process rather than just outsourcing a job. I gained a broader understanding of the stats and our systematic review has benefited greatly from the meta-analysis.",
+      "Title": "Meta-analysis into Adolescent Oral Health Interventions"
+    },
+    "id": "17742",
+    "key": "PIPE-485",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17742"
+  },
+  {
+    "fields": {
+      "Body": "By video-tracking the interaction between prey mosquitofish, Gambusia holbrooki, and their predator, jade perch, Scortum barcoo, under controlled conditions, we provide some of the first fine-scale characterisation of how prey adapt their behaviour according to their continuous assessment of risk based on both predator behaviour and angular distance to the predator\u2019s mouth. When these predators were inactive and posed less of an immediate threat, prey were often found within the attack cone of the predator showing reductions in speed and acceleration, characteristic of predator-inspection behaviour. However, when predators became active, prey swam faster with greater acceleration and were closer together within the attack cone of predators. Most importantly, this study provides evidence that prey do not adopt a uniform response to the presence of a predator. Instead, we demonstrate that prey are capable of rapidly and dynamically updating their assessment of risk and showing fine-scale adjustments to their behaviour.\n\nPaper: \"Fine-scale behavioural adjustments of prey on a continuum of risk\". M.I.A. Kent, J.E. Herbert-Read, G.D. McDonald, A.J. Wood, A.J.W. Ward. Proceedings of the Royal Society B. 2019",
+      "Classification Deliverables": [
+        "Verbal advice",
+        "Transformed data",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Description and basic visualization",
+        "Creative visualization",
+        "Time series"
+      ],
+      "Clients": [
+        "Mia Kent",
+        "Prof. Ashley Ward"
+      ],
+      "Contact first name": "Mia",
+      "Contact last name": "Kent",
+      "Contact role": "PhD student",
+      "Cost": 3.0,
+      "End date": "2019-02-25",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Gordon McDonald"
+      ],
+      "SIH Team": "Statistical Expertise",
+      "Start date": "2018-03-01",
+      "Title": "Video Tracking Predator-Prey Interactions in Fish."
+    },
+    "id": "17250",
+    "key": "PIPE-244",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17250"
+  },
+  {
+    "fields": {
+      "Body": "In this study we examined discharge against medical advice (DAMA) and its relation to the cultural and linguistic diversity (CALD) of 600,000 patients over 9 years in the Sydney Children's Hospital Network. Using a bayesian logistic regression framework, we found CALD status to be significantly positively correlated with DAMA rates. Identification of this link provides opportunities for intervention at a practice and policy level in order to prevent adverse outcomes for CALD patients.",
+      "Classification Deliverables": [
+        "Paper"
+      ],
+      "Classification Methodologies": [
+        "Inferential modelling",
+        "Data linkage"
+      ],
+      "Clients": [
+        "Dr. Aldo Saavedra",
+        "Angela Guo",
+        "Prof. Raghu Lingam",
+        "Assoc. Prof. Sue Woolfenden"
+      ],
+      "Cost": 3.0,
+      "Deliverables": [
+        "Paper: \"Discharge against medical advice in Culturally and Linguistically Diverse (CALD) populations at a Tertiary Children\u2019s Hospital: A cross-sectional study\" Submitted, under review."
+      ],
+      "End date": "2019-02-18",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Gordon McDonald"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-03-12",
+      "Techniques and Technologies": [
+        "R, Data linkage, Bayesian Logistic Regression, Statistical Tests, Electronic Medical Records"
+      ],
+      "Title": "Discharge Against Medical Advice in Culturally and Linguistically Diverse Patients"
+    },
+    "id": "17121",
+    "key": "PIPE-172",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17121"
+  },
+  {
+    "fields": {
+      "Body": "The \"Formation Boundaries\" project looks at both the application of a Bayesian inference engine to the Gascoyne region in Western Australia as well as the exploration of the modelling assumptions of the inference engine.\r\n\r\nBayesian inference is an important tool for understanding uncertainty in regards to formation location and rock properties when undertaking mineral exploration. \r\n\r\nThe project was part of a demonstration of collaboration for a Geosciences Centre of Excellence bid.\r\n\r\nSIH has helped apply this Bayesian modelling approach to a novel region in an applications paper, demonstrating the wider applicability of the Bayesian inference approach in geophysical problems beyond the original Moomba region that the inference engine was developed for.\r\n\r\nSIH has also helped to facilitate the understanding of the inference engine for the geoscience community by exploring how the different modelling assumptions of Bayesian inference effect the model output. SIH has also helped to develop novel extensions to the inference engine including a more efficient MCMC sampling scheme.",
+      "Centre": [
+        "Centre for Translational Data Science"
+      ],
+      "Classification Deliverables": [
+        "Software",
+        "Report",
+        "Paper"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool",
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Description and basic visualization",
+        "Creative visualization",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "Richard Scalzo, Dietmar M\u00fcller, Sally Cripps, Rohitash Chandra, Gregory Houseman, Hugo Olierook"
+      ],
+      "Contact first name": "Richard",
+      "Contact last name": "Scalzo",
+      "Cost": 24.0,
+      "Deliverables": [
+        "Application paper",
+        "Methodology paper",
+        "Code fork"
+      ],
+      "End date": "2018-12-21",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Papers acknowledging": [
+        "Applications paper",
+        "Methods paper"
+      ],
+      "Papers coauthored": [
+        "Applications paper (third author)",
+        "Methods paper (third author)"
+      ],
+      "SIH Staff": [
+        "David Kohn"
+      ],
+      "SIH Team": "Data Science",
+      "Software published": "https://github.com/rscalzo/obsidian",
+      "Start date": "2018-01-22",
+      "Techniques and Technologies": [
+        "Bayesian inference",
+        "Gaussian processes",
+        "HPC",
+        "C++",
+        "Python",
+        "Network programming",
+        "Visualization",
+        "Geophysical modelling"
+      ],
+      "Title": "Modelling the Earth's Subsurface with Uncertainty Using Bayesian Inference and Evaluating MCMC Sampler Performance for Geoscientific Applications"
+    },
+    "id": "17201",
+    "key": "PIPE-223",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17201"
+  },
+  {
+    "fields": {
+      "Body": "A Bayesian network is a series of linear models fit to describe the relationships between different variables in a time series. If there are change points in how these variables are related, then the network is dynamic. \n\nSIH helped the researcher by speeding up the R-package used to fit the dynamic bayesian network model by 1000x. The R-package is now available at https://github.com/FrankD/EDISON/tree/MultipleTimeSeries \n",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Time series",
+        "Bayesian methods"
+      ],
+      "Contact first name": "Richard",
+      "Contact last name": "Morris",
+      "Contact role": "postdoc",
+      "Cost": 4.0,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2019-02-08",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Di Lu, Gordon McDonald"
+      ],
+      "SIH Team": "Data Science",
+      "Software published": "https://github.com/FrankD/EDISON/tree/MultipleTimeSeries",
+      "Start date": "2018-11-12",
+      "Techniques and Technologies": [
+        "R, C++, MCMC"
+      ],
+      "Testimonial": "\"We engaged SIH to speed up an R package that was critical for our experiments into causal modelling, but taking 3 days to run on our dataset. Gordon & Di managed to reduce the runtime to less than three minutes, an order of magnitude improvement of about a 1000! We can now run as many experiments as we need to and get this project off the ground. Thank you SIH!\" -Dr. Richard Morris",
+      "Title": "1000-fold speedup in Dynamic Bayesian network model"
+    },
+    "id": "17586",
+    "key": "PIPE-399",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17586"
+  },
+  {
+    "fields": {
+      "Body": "Altmann with Martin Gerlach wanted other researchers to try out their new language modelling technique, so they made it open-source. SIH made their work more accessible by following software best practices: restructuring the code so that it conformed to the established Scikit-learn estimator API; adding automated software testing and continuous integration; extending and publishing documentation; and releasing version 0.1 of the software to the Python package index. See http://topsbm.readthedocs.io",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Clients": [
+        "Eduardo Altmann, Mathematics and Statistics"
+      ],
+      "Contact first name": "Eduardo",
+      "Contact last name": "Altmann",
+      "Contact role": "Associate Professor",
+      "Deliverables": [
+        "Continuous integration",
+        "Software testing",
+        "Software publication"
+      ],
+      "End date": "2019-02-06",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Vijay Raghunath",
+        "Dr Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-07-02",
+      "Title": "Repackaging software for modelling topic structure in language"
+    },
+    "id": "17505",
+    "key": "PIPE-362",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17505"
+  },
+  {
+    "fields": {
+      "Body": "Potato-sized nodules of iron ore found on the ocean floor are of commercial mining interest. However, negative ecological effects from mining these nodules is of concern. SIH constructed a global predictive model of nodule occurrence by combining data from thousands of ocean floor samples with global maps of oceanic variables. The environments in which these deposits do and do not occur could then be characterised to generate insight into potential consequences of proposed mining.",
+      "Classification Deliverables": [
+        "Software",
+        "Transformed data",
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Description and basic visualization"
+      ],
+      "Clients": [
+        "Dr. Adriana Dutkiewicz, School of Geosciences",
+        "Prof. Dietmar M\u00fcller, School of Geosciences"
+      ],
+      "Contact first name": "Adriana",
+      "Contact last name": "Dutkiewicz",
+      "Cost": 34.0,
+      "Deliverables": [
+        "Analysis materials",
+        "Contribution to draft paper"
+      ],
+      "End date": "2018-12-19",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr. Alexander Judge"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-11-20",
+      "Techniques and Technologies": [
+        "Geospatial geometry",
+        "Sample bias correction",
+        "Bayesian logistic regression",
+        "Evidence maximisation / empirical Bayes",
+        "Kernel density estimation"
+      ],
+      "Title": "Where can deep-sea iron nodules be found?"
+    },
+    "id": "16402",
+    "key": "PIPE-43",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16402"
+  },
+  {
+    "fields": {
+      "Body": "Exploring for new mineral resources is time-consuming and expensive, so we seek to combine a variety of aerial sensor types to optimise recommendations of where to place new drill-core measurements. A probabilistic framework was built to optimise measurement collection given an expensive cost function. Our new method is implemented as software package and jointly solves multi-linear forward models of 2D-sensor data to 3D-geophysical properties using sparse Gaussian Process kernels. By modelling simultaneously, the cross-variances between geophysical properties, the reconstructed 3D properties are more accurate than solving for each individually. We tested multiple optimisation strategies on a set of synthetic and real geophysical data. This project shows the advantages of this novel method for one use case study, and the same method can be applied to a large range of sensor fusion problems.",
+      "Centre": [
+        "Centre for Translational Data Science"
+      ],
+      "Classification Deliverables": [
+        "Software",
+        "Paper"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Creative visualization",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "Prof. Fabio Ramos (CTDS, University Sydney)",
+        "Prof. Dietmar Muller (University Sydney)"
+      ],
+      "Contact first name": "Fabio",
+      "Contact last name": "Ramos",
+      "Contact role": "Associate Professor",
+      "Cost": 17.0,
+      "End date": "2018-12-14",
+      "Faculty": [
+        "Faculty of Engineering and Information Technologies"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Reason not public": "Still in publication process",
+      "SIH Staff": [
+        "Sebastian Haan"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-02-01",
+      "Techniques and Technologies": [
+        "Multi-Objective Bayesian Optimisation",
+        "Sparse Gaussian Process Kernels",
+        "Joint Inversion",
+        "Geophysics",
+        "Gravity and Magnetic Forward Modeling",
+        "Python",
+        "3D Visualisation",
+        "Hyperparameter Optimisation"
+      ],
+      "Title": "Smart Exploration for Mineral Resources"
+    },
+    "id": "17186",
+    "key": "PIPE-208",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17186"
+  },
+  {
+    "fields": {
+      "Body": "Responding to domestic violence related assaults dominate much of the NSW Police's resources. We try to understand the relationships that drive social-demographic change and cause the occurrence of crime using a complex modelling framework. The social-demographic-crime network and its inter-dependencies were modelled using a Bayesian vector autoregression model. We built a collaboration with BOCSAR, the crime database of all offences in NSW over the last 20 years, and sourced demographic data for multiple census years. The results of this study will help inform policy decision-making by government and police.",
+      "Classification Deliverables": [
+        "Verbal advice",
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data collection",
+        "Predictive modelling",
+        "Inferential modelling",
+        "Data linkage",
+        "Description and basic visualization",
+        "Time series"
+      ],
+      "Clients": [
+        "Dr. Roman Marchant, Centre for Translational Data Science"
+      ],
+      "Contact first name": "Roman",
+      "Contact last name": "Marchant",
+      "Contact role": "Lecturer",
+      "Cost": 12.0,
+      "Deliverables": [
+        "Cleaned crime SQL database",
+        "Combined and cleaned demographic from census timeseries for SA1 and SA2 areas into a database",
+        "Development of software tools in Python for handling and visualising all data",
+        "Exploratory analysis to identify feature patterns and characteristic timescales",
+        "Developed, Implemented and tested in Python a probabilistic Vector Auto Regression (VAR) model using MCMC methods to identify global dynamical correlations between covariates in crime rates and demographics and their uncertainties based on data for all suburbs in NSW."
+      ],
+      "End date": "2018-12-14",
+      "Faculty": [
+        "Faculty of Engineering and Information Technologies"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Yes: SIH and Client approve",
+      "SIH Staff": [
+        "Dr. Sebastian Haan"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-05-01",
+      "Techniques and Technologies": [
+        "Gaussian processes",
+        "Vector Autoregression Model (VAR)",
+        "MCMC",
+        "Python",
+        "SQL",
+        "Timeseries",
+        "Spatial Analytics"
+      ],
+      "Title": "Predicting Crime using a Spatial-Demographic Framework"
+    },
+    "id": "17174",
+    "key": "PIPE-197",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17174"
+  },
+  {
+    "fields": {
+      "Body": "The SAMI Galaxy Survey is a large-scale observational program to target several thousand galaxies with the University of Sydney built Sydney-AAO Multi-object Integral field spectrograph (SAMI). A key data challenge is to optimally reconstruct a data cube from ~500 spectra taken at different spatial locations across a galaxy. The previous method resulted in undesirable artefacts due to under-sampling and the astronomical sources changing spatial location within the data due to differential atmospheric refraction. We have developed a novel method using probabilistic image fusion that delivers optimal combination of the spectral fibre bundle data into a cube with uniform image quality while maintaining spectral details. This innovative technology has further demonstrated capabilities to achieve super-resolution and is implemented as flexible software framework that can eventually be used by a wide range of worldwide telescopes.",
+      "Classification Deliverables": [
+        "Software",
+        "Transformed data"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Bayesian methods"
+      ],
+      "Clients": [
+        "Prof. Scott Croom, School of Physics, and the SAMI team",
+        "Dr. Richard Scalzo, Centre for Translational Data Science"
+      ],
+      "Contact first name": "Scott",
+      "Contact last name": "Croom",
+      "Cost": 30.0,
+      "Deliverables": [
+        "Optimised Software package in Python",
+        "Integration in SAMI pipeline processing",
+        "SAMI cubing testing",
+        "New software module for users to reconstruct covariances as function of image and spectral position",
+        "Development of software tools for data quality and imaging testing",
+        "SAMI workshop presentations",
+        "Contributing to publication that describes new method and improvements for SAMI cubing "
+      ],
+      "End date": "2018-12-14",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Sebastian Haan"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-03-06",
+      "Techniques and Technologies": [
+        "Probabilistic Image Fusion and Transformation",
+        "Gaussian Processes",
+        "Regularisation",
+        "Bayesian Inversion",
+        "Hyperparameter Learning",
+        "Covariance Kernel ",
+        "Python",
+        "Fourier Transformation",
+        "Software parallelization",
+        "Matrix factorisation",
+        "Computational Speed Optimisation"
+      ],
+      "Title": "Optimal Image Reconstruction for the SAMI Galaxy Survey "
+    },
+    "id": "15716",
+    "key": "PIPE-17",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/15716"
+  },
+  {
+    "fields": {
+      "Body": "Diagnostic imaging in hospitals is costly due to expensive machines and their operators, as well as the cost of moving patients in and out of radiography. Published studies of emergency presentations have shown that the number of brain computer tomography (CT-Brain) scans performed is increasing with time while the proportion of scans giving no cause for concern remains the same and represents the largest category.\r\n\r\nWe sought to determine whether a substantial portion of CT Scans performed in North Sydney LHD were unnecessary. We translated this research question into something determinable from data: identify CT-Brain cases where the unconcerning outcome of scans could be predicted from clinical knowledge available prior to the scan. By first constructing a text classifier to label CT Scan reports as unconcerning, we were able to use clustering and predictive modelling to weakly identify some patient features that predicted unconcerning CT results.\r\n\r\nWhile the project had the potential to impact clinical policy surrounding the application of CT Scans in Emergency Departments, the weak results suggests that if any excessive expenditure problem exists it is not simple to resolve. At the same time, we have developed methodologies for performing similar studies towards rationalising diagnostic scan expenditure.\r\n",
+      "Classification Deliverables": [
+        "Report"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Predictive modelling",
+        "Inferential modelling",
+        "Description and basic visualization",
+        "Language as data"
+      ],
+      "Clients": [
+        "Professor Jonathan Morris, Kolling Institute of Medical Research and Sydney Medical School",
+        "Dr Felicity Gallimore"
+      ],
+      "Contact first name": "Jonathan",
+      "Contact last name": "Morris",
+      "Contact role": "Professor Obstetrics and Gynaecology, DIRECTOR Kolling Institute of Medical Research, DIRECTOR Biomedical and Health Informatics Sydney Medical School",
+      "Cost": 42.0,
+      "Deliverables": [
+        "Report on text classification.",
+        "Report on CT prediction.",
+        "Presentation at HIC 2018."
+      ],
+      "End date": "2018-12-18",
+      "Faculty": [
+        "The University of Sydney Medical School"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Papers coauthored": [
+        "Towards identifying emergency patients with unconcerning brain computer tomography scans (abstract and presentation only)"
+      ],
+      "Public": "Legacy: SIH approves, client may have approved",
+      "Reason not public": "\r\n",
+      "SIH Staff": [
+        "Dr Aldo Saavedra ",
+        "Dr Madhura Killedar",
+        "Dr Joel Nothman",
+        "Mr Peter Thiem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2016-07-11",
+      "Techniques and Technologies": [
+        "Electronic Health Record",
+        "Descriptive statistics",
+        "Manual coding / content analysis",
+        "Clinical text classification",
+        "Cluster analysis",
+        "Predictive modelling"
+      ],
+      "Title": "Predicting unnecessary CT scans"
+    },
+    "id": "16520",
+    "key": "PIPE-71",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16520"
+  },
+  {
+    "fields": {
+      "Body": "The Transgenerational Dataset 2 Extended (TDS2-e) dataset is an important investment by the Commonwealth in understanding the factors contributing to life outcomes, including the reliance of people on income support. The data contains welfare payments to recipients born between 1987-1988, their families, parents, children and siblings.\r\nThe raw data was difficult to work with because it was subject to extensive security requirements, was large in volume, and an inconvenient data shape. SIH engineered software to convert the data into forms that made the data accessible to the end user while complying with security and licence requirements. This rich dataset is now available for researchers to explore, and will contribute to the understanding and improvements to the Commonwealth income support systems and life outcomes for all Australians.\r\n",
+      "Classification Deliverables": [
+        "Software",
+        "Transformed data"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Data-store development"
+      ],
+      "Clients": [
+        "Professor Deborah Cobb-Clark, School of Economics",
+        "Dr Sarah Dahmann"
+      ],
+      "Contact first name": "Deborah",
+      "Contact last name": "Cobb-Clark",
+      "Cost": 20.0,
+      "Deliverables": [
+        "Software specification document.",
+        "Software design document.",
+        "Software test cases.",
+        "Software implementation.",
+        "Computing environment.",
+        "Operating procedures."
+      ],
+      "End date": "2018-11-29",
+      "Faculty": [
+        "Faculty of Arts and Social Sciences"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "Reason not public": "Approval from client not yet received.",
+      "SIH Staff": [
+        "Mr Peter Thiem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2016-10-17",
+      "Techniques and Technologies": [
+        "SQL, Python, Sqlite, RDS, Data Engineering, Data Security, Data Licensing, Virtual Machines"
+      ],
+      "Testimonial": "\"I wanted to take a moment to thank you and your team for the excellent support that we have received on our Centrelink Project Data.\r\n \r\nWe relied on the services of the Sydney Informatics Hub (SIH) to administer and manipulate a large governmental dataset. SIH assisted us with their IT expertise through the entire process of negotiating the security requirements with the Department of Social Services and setting up the adequate infrastructure to meet those. In the following months, data engineer Peter Thiem worked very closely with our research team to convert the complex data into a piecemeal dataset ready for our analyses. He carried these tasks out very diligently, incorporating all our requests and feedback and carefully documenting the entire process. The data together with its documentation he delivered to us are thus custom-tailored and perfect for our analyses. Through the close interaction, we always knew whether he was at in the process and everything was delivered on time. He also set up a virtual machine environment, where we can comfortably collaborate with several researchers, including externals at other universities. Overall, his work greatly improved our research potential, as the data are now ready and easily accessible for many projects, even beyond those started already, and we expect our research to benefit from SIH's work for several years to come. Therefore, we would highly recommend SIH's services to any colleagues, especially if computing skills different from one's own training are required.\r\n \r\nDeborah\"\r\n \r\nProfessor Deborah Cobb-Clark\r\n \r\nSchool of Economics\r\nUniversity of Sydney\r\nARC Centre of Excellence for Children and Families over the Life Course\r\nInstitute for the Study of Labor Economics (IZA)",
+      "Title": "Understanding Transgenerational Welfare Dependence"
+    },
+    "id": "16543",
+    "key": "PIPE-94",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16543"
+  },
+  {
+    "fields": {
+      "Body": "Online Medelian Inheritance in Animals (OMIA) is an online knowledge base of inherited disorders in animals. It offers a wide range of search & curation functionalities on the animal genetics database created and maintained by Prof. Frank Nicholas. Frank maintained an annotated bibliography in OMIA by manually searching for the latest articles (~150 per day), but this approach was not sustainable. SIH automated this process to emulate Frank's existing work. A text-mining pipeline now automatically downloads and shortlists recent publications predicted to have high relevance for OMIA. We developed an interface in which Frank can annotate or exclude these publications from the knowledge base. This project enables the OMIA to continue contributing to the genetic science community as a user-friendly online platform.",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Real-time analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data collection",
+        "Data-store development",
+        "Predictive modelling",
+        "Language as data"
+      ],
+      "Clients": [
+        "Prof. Frank Nicholas, Faculty of Science at The University of Sydney"
+      ],
+      "Contact first name": "Frank",
+      "Contact last name": "Nicholas",
+      "Contact role": "Emeritus Professor of Animal Genetics",
+      "Cost": 16.0,
+      "End date": "2018-11-19",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Joshua Stretton, Di Lu"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2017-07-20",
+      "Techniques and Technologies": [
+        "Web development",
+        "Server upgrade",
+        "Text mining",
+        "Database management"
+      ],
+      "Title": "Automating information curation in the OMIA knowledge base\r\n\r\n"
+    },
+    "id": "15712",
+    "key": "PIPE-13",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/15712"
+  },
+  {
+    "fields": {
+      "Body": "The University's research output is evaluated, in part, on the basis of publication and citation networks derived from publication metadata archives like Elsevier's Scopus. While the University has subscribed to Scopus snapshot data for a few years, it lacked an efficient way to load and query the data.\r\n\r\nWe analysed the snapshot, stored as a collection of XML files, and developed a relational database schema to represent useful portions of the data for efficient access. We developed a script to efficiently load the data from XML's snapshot into a relational database.\r\n\r\nThis resource now allows the Research Portfolio to calculate metrics over the publication record, while the database is now more accessible to researchers, and the loading script to external Scopus Snapshot users.\r\n",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data-store development"
+      ],
+      "Clients": [
+        "Nathaniel Lewis"
+      ],
+      "Contact first name": "Nathaniel",
+      "Contact last name": "Lewis",
+      "Contact role": "Director, Research Reporting, Analysis, Data and Systems (RRADS) ",
+      "Cost": 6.0,
+      "Deliverables": [
+        "Software",
+        "Database"
+      ],
+      "End date": "2017-10-16",
+      "Faculty": [
+        "Not applicable"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Dr Nikzad B. Rizvandi",
+        "Dr Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Software published": "https://github.com/ctds-usyd/scopus",
+      "Start date": "2016-09-14",
+      "Techniques and Technologies": [
+        "Relational databases",
+        "XML / XPath",
+        "Cross-platfrom deployment"
+      ],
+      "Title": "Scopus Data Preparation"
+    },
+    "id": "16540",
+    "key": "PIPE-91",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/16540"
+  },
+  {
+    "fields": {
+      "Body": "The Murchison Widefield Array is a state-of-the-art telescope in Western Australia. Over the last four years, researchers have collected an exceptionally large time-series dataset on 300,000 bright objects in the sky, such as supernovae. Analysing the brightness of light sources over time requires matching each across pictures from different times and locations in the sky. The astrophysicists had built processing software, a database and a web app to analyse similar datasets, but had never tried to scale it to this size of dataset. An SIH engineer was able to debug and optimise the software involved, so that the data loading process took 8 hours instead of around 15 hours, and web app load times were reduced from multiple minutes to a few seconds. This enabled further research and analysis of this unique and enormous dataset.",
+      "Classification Deliverables": [
+        "Software"
+      ],
+      "Classification Dynamism": [
+        "Repeated analysis tool"
+      ],
+      "Classification Methodologies": [
+        "Data-store development",
+        "Time series"
+      ],
+      "Clients": [
+        "Associate Professor Tara Murphy, School of Physics"
+      ],
+      "Contact first name": "Tara",
+      "Contact last name": "Murphy",
+      "Contact role": "A/Prof",
+      "Cost": 2.4,
+      "Deliverables": [
+        "Software"
+      ],
+      "End date": "2018-04-18",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "Has Large Image": "Yes",
+      "Has Thumbnail Image": "Yes",
+      "Public": "Legacy: SIH approves, client may have approved",
+      "SIH Staff": [
+        "Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-02-09",
+      "Techniques and Technologies": [
+        "Database optimisation",
+        "Code optimisation"
+      ],
+      "Title": "Clustering Light Sources: Scaling Up to the Whole Sky"
+    },
+    "id": "17142",
+    "key": "PIPE-180",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17142"
+  },
+  {
+    "fields": {
+      "Body": "A new Unit of Study was being developed to teach Data Analysis in the Social Sciences to Masters students. The Unit Coordinator sought the assistance of SIH to develop a lecture and a coding tutorial on language processing and text analysis applied to the social sciences. We developed and delivered an hour-long lecture in consultation with the coordinator.",
+      "Classification Methodologies": [
+        "Language as data"
+      ],
+      "Clients": [
+        "Shaun Ratcliff, United States Studies Centre"
+      ],
+      "Deliverables": [
+        "Training materials",
+        "Lecture"
+      ],
+      "End date": "2018-05-07",
+      "Faculty": [
+        "Faculty of Arts and Social Sciences"
+      ],
+      "Has Thumbnail Image": "Yes",
+      "SIH Staff": [
+        "Joel Nothman"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-02-02",
+      "Techniques and Technologies": [
+        "Training"
+      ],
+      "Title": "A lecture on text analysis for social science"
+    },
+    "id": "17209",
+    "key": "PIPE-231",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17209"
+  },
+  {
+    "fields": {
+      "Body": "There are 760,000 observations for 9600 schools in Australia's Naplan testing used in this study. The study aims to improve the quality and impact of research output by addressing the major education problems, extracted from data and modelling, to challenge Australian schools. \r\nThe big dataset and complicated data structure required for the modelling made the progress of the research slow. SIH provided technical support of transforming the data to facilitate each model.",
+      "Classification Deliverables": [
+        "Transformed data"
+      ],
+      "Classification Dynamism": [
+        "Static analysis"
+      ],
+      "Classification Methodologies": [
+        "Data linkage"
+      ],
+      "Clients": [
+        "Dr Diane Dancer, Sydney Business School"
+      ],
+      "Contact first name": "Diane",
+      "Contact last name": "Dancer",
+      "Contact role": "Casual Lecturer",
+      "Cost": 5.0,
+      "Deliverables": [
+        "Data transformation to support modelling and publication ",
+        " Schools education plan and decision making "
+      ],
+      "End date": "2018-03-18",
+      "Faculty": [
+        "The University of Sydney Business School"
+      ],
+      "Reason not public": "I need to get feed back from client; request approval from client. ",
+      "SIH Staff": [
+        "Dr Maryam Montazerolghaem"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-02-19",
+      "Techniques and Technologies": [
+        "R "
+      ],
+      "Title": "Transforming Naplan data for stochastic frontier modelling"
+    },
+    "id": "17192",
+    "key": "PIPE-214",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17192"
+  },
+  {
+    "fields": {
+      "Body": "The individual behaviour of animals can be tracked through tags reporting their locations over time. To help identify collective behaviours, SIH developed software that would transform this individual movement data into a dataset of animal interactions, and which could apply at scale to large numbers of animals and long time periods.",
+      "Clients": [
+        "Prof. Ashley Ward, School of Life and Environmental Sciences"
+      ],
+      "Contact first name": "Ashley",
+      "Contact last name": "Ward",
+      "Contact role": "Prof",
+      "End date": "2018-03-23",
+      "Faculty": [
+        "Faculty of Science"
+      ],
+      "SIH Team": "Data Science",
+      "Start date": "2018-03-02",
+      "Title": "Detecting animal interactions towards analysing collective behaviour"
+    },
+    "id": "17204",
+    "key": "PIPE-226",
+    "self": "https://ctdshub.atlassian.net/rest/api/2/issue/17204"
+  }
+]

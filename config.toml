@@ -1,5 +1,5 @@
 BaseURL = "https://sydney-informatics-hub.github.io/archived-sih-website/"
-Title = "Sydney Informatics Hub"
+Title = "Sydney Informatics Hub Archived Website"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
